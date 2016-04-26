@@ -242,6 +242,10 @@ hr.medium {
     }
 }
 
+@media(max-width: 990px){
+    #name {display: none;}
+}
+
 #social a { color: white;}
 #social a:hover {
     color: #337ab7;;
