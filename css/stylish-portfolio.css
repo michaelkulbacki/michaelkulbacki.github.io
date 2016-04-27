@@ -188,7 +188,58 @@ hr.medium {
     margin-bottom: 30px;
 }
 
-/* Callout */
+/* Resume color change */
+.bg-primary {
+    color: #fff;
+    background-color: #9900ff;
+}
+/*glyphicon colors */
+.text-primary {
+    color: #9900ff;
+}
+
+/* The send button in footer */
+#footer .btn-light {
+    background-color: #9900ff;
+}
+#footer .btn-light a:hover {
+    background-color: #a7a7a7;
+}
+
+/* Link colors */
+a {
+    color: #9900ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a7a7a7;
+    text-decoration: underline;
+}
+/*email send button */
+form button {
+  color: white;
+  background: #9900ff;
+  border-radius: 0px;
+  transition: all 0.2s ease-in-out; 
+}
+
+form .btn-lg:hover {
+    background-color: #a7a7a7;
+    color: white; 
+}
+
+/* Social Media Icons */
+#socialsection i {
+    color: white;
+    text-decoration: none;
+}
+#socialsection i:hover {
+    color: #9900ff;
+    text-decoration: none;
+}
+
+/* Callout the pic with text kinda thing*/
 
 .callout {
     display: table;
