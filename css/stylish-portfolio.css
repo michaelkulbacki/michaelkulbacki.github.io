@@ -132,6 +132,9 @@ body {
 .services hr {
     border-top: 1px solid white;
 }
+.resume hr {
+    border-top: 1px solid white;
+}
 
 hr {
     margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #9900ff;
