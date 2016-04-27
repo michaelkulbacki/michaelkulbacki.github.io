@@ -63,14 +63,16 @@ body {
 }
 
 /* Custom Horizontal Rule */
-
+#about hr.small {
+    color:#9900ff;
+}
 hr.small {
     max-width: 100px;
     color: black;
 }
 
 hr.medium {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 /* Side Menu */
@@ -273,11 +275,11 @@ form .btn-lg:hover {
 
 /* Call to Action */
 
-.call-to-action {
-    padding: 40px 0;
+.resume {
+    padding: 30px 0;
 }
 
-.call-to-action .btn {
+.resume .btn {
     margin: 10px;
 }
 
