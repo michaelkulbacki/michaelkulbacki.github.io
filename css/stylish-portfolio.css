@@ -172,7 +172,7 @@ form .btn-lg:hover {
     text-decoration: none;
 }
 
-/* Callout the pic with text kinda thing*/
+/* Callout the pic with text kinda thing
 
 .callout {
     display: table;
@@ -184,7 +184,7 @@ form .btn-lg:hover {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
 /* Portfolio */
 
