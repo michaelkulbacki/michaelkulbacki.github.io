@@ -32,6 +32,7 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/landscape.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
     <script type="text/javascript" src="shadow/shadowbox.js"></script>
@@ -53,12 +54,12 @@
 
 <body>
 
-    <!-- Navigation -->
+<!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.jpg" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
           <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro">Michael Kulbacki</span></a>
-        <div class="navbar-header">
+        <div class="navbar-header">
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -103,19 +104,18 @@
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Header 
     <header id="top" class="header">
-        <p style="color:black;"> sup</p>
-    </header>
+    
+    </header>-->
 
     <!-- Title -->
-    <section class="about" id ="about">
+<section class="about" id ="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center wow fadeInDown">
                 <br>
                 <h1>Landscapes</h1>
-                <h4>(Under Construction)</h4>
                 <hr class="medium">
             </div>
         </div>
@@ -146,7 +146,7 @@
     <div class="col-lg-10 col-lg-offset-1 block-center">
     <div id="content">
     <div id ="page">
-        <div id="left">
+        <div id="left" class="wow fadeInLeft" data-wow-delay="0.2">
             <div class="horz">
                 <a href=" landscape/clockk.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo" ><img src="landscape/clock.jpg" /></a>
             </div>
@@ -203,7 +203,7 @@
             </div>
         </div>
 
-        <div id="right">
+        <div id="right" class="wow fadeInRight" data-wow-delay="0.2">
             <div class="horz">
                 <a href=" landscape/onebuff.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo" ><img src="landscape/onebuf.jpg" /></a>
             </div>
@@ -268,7 +268,7 @@
 <!--===================MOBILE======================================-->
 
     <center><div id="mobilelayout">
-    <div id="mobilepage">
+    <div id="mobilepage" class="wow fadeInDown" data-wow-delay="0.2s">
         <div class="mobilespacing">
             <img src="landscape/clockk.jpg" style="max-width: 470px; width:100%;"/>
         </div>
@@ -404,7 +404,7 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 column text-center">
+            <div class="col-md-4 column text-center wow fadeInLeft" data-wow-delay="0.3s">
                 <br>
                 <img src="img/footMK.png" style=" max-width:100px;"/>
                 <h3><strong>Michael Kulbacki</strong></h3>
@@ -426,6 +426,7 @@
         <!--/row-->
         <br>
         <br>
+        <p class="text-center" style="color:#9900ff;">Last Updated: April 2016 | Version 2.4.0</p>
         <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
     </div>
 </footer>
@@ -465,6 +466,28 @@
         </script>-->
 
     <!-- Custom Theme JavaScript -->
+    <!-- main jQuery -->
+        <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
+        <!-- jquery.nav -->
+        <script src="js/effect/jquery.nav.js"></script>
+        <!-- Portfolio Filtering -->
+        <script src="js/effect/jquery.mixitup.min.js"></script>
+        <!-- Fancybox -->
+        <script src="js/effect/jquery.fancybox.pack.js"></script>
+        <!-- Parallax sections -->
+        <script src="js/effect/jquery.parallax-1.1.3.js"></script>
+        <!-- jQuery Appear -->
+        <script src="js/effect/jquery.appear.js"></script>
+        <!-- countTo -->
+        <script src="js/effect/jquery-countTo.js"></script>
+        <!-- owl carousel -->
+        <script src="js/effect/owl.carousel.min.js"></script>
+        <!-- WOW script -->
+        <script src="js/effect/wow.min.js"></script>
+        <!-- theme custom scripts -->
+        <script src="js/effect/main.js"></script>
+
+
     <script>
     // Scrolls to the selected menu item on the page
     $(function() {
