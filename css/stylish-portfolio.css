@@ -29,6 +29,72 @@ body {
     font-weight: 700;
 }
 
+/* Landscape CSS */
+    #page {
+    background-color: white;
+    width:1000px;
+    padding-bottom: 15px;
+    margin-bottom: 60px; 
+    padding-right: 20px;   
+    }
+
+    #left {
+    float: left;
+    width: 470px;
+    margin-top: 15px;
+    }
+
+    #right {
+    float: right;
+    width: 470px;
+    margin-right: 20px;
+    margin-top: 15px;
+    }
+
+    .horz {
+    margin-bottom: 15px;
+    height: auto;
+    }
+
+    .vl {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    float: left;
+    }
+    .vr {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    float: left;
+    }
+    @media screen and (min-width :1100px){
+        #mobilelayout {display:none;}
+        #content      {display: inline-block;}
+    }
+
+    /* Mobile Part */
+    #mobilepage {
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    }
+    
+    .mobilespacing {
+    display: inline-block;
+    width: 100%;
+    margin-top: 9px;
+    }
+
+    @media screen and (max-width :1100px){
+    #content    {display:none;}
+    .spacing    {display:none;}
+    #page       {display:none;}
+    #bottom     {display: none;}
+    }
+
+
 /* Custom Button Styles */
 
 .btn-dark {
