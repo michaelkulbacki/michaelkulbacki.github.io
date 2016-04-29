@@ -149,6 +149,10 @@ hr.medium {
     max-width: 250px;
 }
 
+hr.courses {
+    max-width: 170px;
+}
+
 .h2margin h2 {
     margin-top: 0px;
 }
