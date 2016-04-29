@@ -173,6 +173,14 @@ hr.courses {
     max-width: 170px;
 }
 
+hr.projects {
+    max-width:330px;
+}
+
+hr.green {
+    border-top: 1px solid #00cc33;
+}
+
 .h2margin h2 {
     margin-top: 0px;
 }
@@ -316,6 +324,10 @@ form .btn-lg:hover {
     opacity: 0.8;
 }
 
+#mirror .img-portfolio:hover {
+    
+}
+
 /* Call to Action */
 
 .resume {
@@ -340,6 +352,9 @@ form .btn-lg:hover {
 
 @media(max-width: 994px){
     #name {display: none;}
+}
+@media(min-width: 994px){
+    #team {display: none;}
 }
 
 #social a { color: white;}

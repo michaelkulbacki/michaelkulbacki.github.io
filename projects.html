@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="img/favicon.jpg"/>
     <meta name="author" content="Michael Kulbacki">
 
-    <title>Courses | Michael Kulbacki</title>
+    <title>CS Projects | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -59,13 +59,13 @@
                 <a href="http://michaelkulbacki.github.io/about.html" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
-                <a href="http://michaelkulbacki.github.io/projects.html" onclick = $("#menu-close").click(); >CS Projects</a>
+                <a href="#top" onclick = $("#menu-close").click(); >CS Projects</a>
             </li>
             <li>
                 <a href="#projects" onclick = $("#menu-close").click(); >Work Experience</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Courses</a>
+                <a href="http://michaelkulbacki.github.io/courses.html" onclick = $("#menu-close").click(); >Courses</a>
             </li>
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
@@ -99,8 +99,8 @@
         <div class="row">
             <div class="col-lg-12 text-center wow fadeInDown">
                 <br>
-                <h1>Courses</h1>
-                <hr class="courses">
+                <h1>Computer Science Projects</h1>
+                <hr class="projects">
             </div>
         </div>
         <!-- /.row -->
@@ -112,72 +112,43 @@
 
       <div class="row lead">
         <div class="col-md-12">
-          <h1>Freshman</h1>
-          <hr> 
+          <h1>Smart Mirror</h1>
+          <hr>
         </div>
-        <div class="col-md-4">
-          <h2>Intro to CS Majors I</h2>
+        <div class="col-md-6">
           <ul>
-            <li>Studied the basics of Java Syntax</li>
-            <li>Learned Object Oriented Design Patterns</li>
+            <li>My team and I created a Smart Mirror in 24 hours at the University Buffalo Hackathon this fall! Out of 250+ hackers, my team took 3rd place!</li>
+            <li>We used a one-way piece of glass mounted to a standard computer monitor and a Raspberry Pi to power it. The glass would act as a perfect mirror until the monitor light shined through to display the desired content. Yahoo's Weather API allowed us to grab weather information for any location. We also implemented a live twitter feed to display the users timeline along with a stock ticker. The idea behind this was people constantly want to be connected to the world around them and this was a creative approach to that concept.</li>
+            <li>My involvement on the project was mainly the design of the interface along with the HTML, CSS and JavaScript coding.</li>
           </ul>
         </div>
+        <br>
 
-        <div class="col-md-4 lead">
-          <h2>Intro to CS Majors II</h2>
-          <ul>
-            <li>Studied the implementations of various Data Structures</li>
-            <li>Practiced Test-Driven Development with JUnit</li>
-            <li>Exposed to a version control system (CVS) while building a Team Scrabble game</li>
-          </ul>
+        <div class="col-md-6 portfolio-item">
+          <center><img src="img/mirror.png" id="mirror" class="img-responsive" style="max-width:380px; width:100%;"/></center>
+          <br>
+          <center><img src="img/team.jpg" id="team" class="img-responsive" style="max-width:380px; width:100%;"/></center>
         </div>
-
-        <div class="col-md-4 lead">
-          <h2>Discrete Mathematics</h2>
-          <ul>
-            <li>Intro to Logic and Proofs</li>
-            <li>Sets and Functions</li>
-            <li>Mathematical Induction</li>
-            <li>Sumed up the use of Graphs and Trees</li>
-          </ul>
-        </div>
-
       </div>
 
       <div class="row lead">
         
-        <div class="col-md-12">
-          <h1>Sophomore</h1>
-          <hr>
+        <div class="col-md-12" id="ThumbTrack">
+          <h1>Thumb Track <img src="img/applogo.png" style="max-width:85px; width:100%; padding-left:20px;"/></h1>
+          <hr class="green">
         </div>
 
-        <div class="col-md-4 lead">
-          <h2>Data Structures and Algorithms</h2>
+        <div class="col-md-6">
           <ul>
-            <li>Advancced application of data structures in weekly programming assignments in C++</li>
-            <li>Algorithm time and space complexities</li>
-            <li>Recursion vs Iteration</li>
+            <li>This app was created at the 2014 UB Hackathon where the time constraint was 36 hours</li>
+            <li>Using Android Studios and Eclipse, my team developed an android app that tracks the distance the user scrolls on their phone. We also have it track your swipe velocity in pixels per second. Features we would like to add would be to also measure distance in feet and miles as well as offer more statistics. We thought this would be an interesting statistic people probably dont think about too often.</li>
+            <li>Having it fully function required a jailbroken phone due to access to touch points on the touch screen. There is now an app for jailbroken iPhones that has the same functionality.</li>
           </ul>
         </div>
+        <br>
 
-        <div class="col-md-4 lead">
-          <h2>Digital Systems</h2>
-          <ul>
-              <li>Explored Logic Gates and Boolean Algebra</li>
-              <li>Application of Decoders, Encoders, Multiplexers</li>
-              <li>Built State Machines from vaious Flip-Flops</li>
-              <li>Introduction to Verilog HDL to build asynchronous state machines</li>
-            </ul>
-        </div>
-
-        <div class="col-md-4">
-          <h2>Programming Languages</h2>
-          <ul>
-            <li>Grammars, Parsing, and Parse Trees</li>
-            <li>Static vs Dynamic Binding</li>
-            <li>Parameter Passing Techniques and Higher Order Functions</li>
-            <li>Functional Programming (ML) vs Imperative Programming </li>
-          </ul>
+        <div class="col-md-6 portfolio-item">
+          <center><img src="img/thumbtrack.png" id="mirror" class="img-responsive" style="max-width:280px; width:100%;"/></center>
         </div>
 
       </div>
@@ -185,80 +156,32 @@
       <div class="row lead">
 
         <div class="col-md-12">
-          <h1>Junior</h1>
+          <h1>MichaelKulbacki.com</h1>
           <hr>
         </div>
 
-        <div class="col-md-4 lead">
-          <h2>Introduction to Algorithms</h2>
+        <div class="col-md-12 lead">
           <ul>
-            <li>Discussed numerous problem solving strategies including Greedy, Divide and Conquer, and Dynamic</li>
-            <li>Completed weekly homework assignments consisting of an Algorithm idea and details, Proof idea and details, and a Runtime Analysis</li>
+            <li>In January of 2015, my first project for my web development course was to create a personal website. This was a four page very simple website. The site has grown and advanced overtime as I acquired new skills and ideas.  My first website I hacked together from scratch without any frameworks and I have finally moved on from that.</li>
+            <li>The website you see now is designed with the latest version of Bootstrap along with JavaScipt animations and scroll features.  There are other functions to implement, but I truly enjoy web design and hope you enjoy the look and feel of my website.</li>
           </ul>
         </div>
-
-        <div class="col-md-4 lead">
-          <h2>Introduction to Operating Systems</h2>
-          <ul>
-            <li>Studied the different ways that operating systems multiplex resources including the CPU and Physical Memory</li>
-            <li>Completed assignments designing numerous synchronization primatives, the system call interface, and the virtual memory system</li>
-            <li>Touched upon other topics including file systems, disks, and benchmarking</li>
-          </ul>
-        </div>
-
-        <div class="col-md-4 lead">
-          <h2>Computer Organization</h2>
-          <ul>
-            <li>Studied the MIPS Assembly instruction set</li>
-            <li>Explored the processor architecture and the pipelining process</li>
-            <li>Learned about the Virtual Memory and Addressing hierarchy</li>
-          </ul>
-        </div>
-
       </div>
 
       <div class="row lead">
         <div class="col-md-12">
-          <h1>Senior</h1>
+          <h1>UBACM Website</h1>
           <hr>
         </div>
 
-        <div class="col-md-4 lead">
-          <h2>Modern Networking Concepts</h2>
+        <div class="col-md-12 lead">
           <ul>
-            <li>Taking in Fall of 2016</li>
+            <li>Aiding in the development of the UB Association for Computing Machinery webiste, view the progress on the new website <a href="http://ubacm-website.herokuapp.com/">here</a> and the current one <a href="http://ubacm.org/">here</a>.</li>
           </ul>
         </div>
-
-        <div class="col-md-4 lead">
-          <h2>Special Topics in Computer Science</h2>
-          <ul>
-            <li>Taking in Fall of 2016</li>
-          </ul>
-        </div>
-
-        <div class="col-md-4 lead">
-          <h2>Software Engineering</h2>
-          <ul>
-            <li>Taking in Fall of 2016</li>
-          </ul>
-        </div>
-
-      </div>
 
       <div class="row lead">
-        <div class="col-md-12">
-          <h1>Mathematics</h1>
-          <hr>
-        </div>
-
-        <div class="col-md-4 Lead">
-          <ul>
-            <li>Calculus I</li>
-            <li>Calculus II</li>
-            <li>Differential Equations</li>
-          </ul>
-        </div>
+</div>
       </div>
     </div>
     <br>
