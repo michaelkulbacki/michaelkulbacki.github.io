@@ -9,20 +9,25 @@
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
     <link rel="shortcut icon" href="img/favicon.jpg"/>
     <meta name="author" content="Michael Kulbacki">
-
-    <title>About | Michael Kulbacki</title>
+    
+    <title>Portraits | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/landscape.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
+    <script type="text/javascript" src="shadow/shadowbox.js"></script>
+    <script type="text/javascript">Shadowbox.init();</script>
+        
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,11 +40,11 @@
 
 <body>
 
-    <!-- Navigation -->
+<!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.jpg" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
-        <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro;">Michael Kulbacki</span></a>
+          <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro">Michael Kulbacki</span></a>
         <div class="navbar-header">
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
@@ -56,7 +61,7 @@
                 <a href="http://michaelkulbacki.github.io/" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >About</a>
+                <a href="http://michaelkulbacki.github.io/about.html" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
                 <a href="#projects" onclick = $("#menu-close").click(); >CS Projects</a>
@@ -72,7 +77,7 @@
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="http://michaelkulbacki.github.io/landscapes.html">Landscapes</a></li>
-                <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a></li>
+                <li><a href="#top">Portraits</a></li>
             </ul>
             </li>
             <li class="dropdown">
@@ -92,11 +97,6 @@
       </div>
     </nav>
 
-<!-- Header 
-    <header id="top" class="header">
-    
-    </header>-->
-
     <!-- Title -->
 <a class="anchor" id="top"></a>
 <section class="about" id ="about">
@@ -104,8 +104,8 @@
         <div class="row">
             <div class="col-lg-12 text-center wow fadeInDown">
                 <br>
-                <h1>About</h1>
-                <hr class="small">
+                <h1>Portraits</h1>
+                <hr class="medium">
             </div>
         </div>
         <!-- /.row -->
@@ -113,29 +113,128 @@
     <!-- /.container -->
 </section>
 
-    <!-- About -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class= "col-md-6" data-wow-delay="0.3s">
-                        <img class="img-fluid center-block img-responsive img-circle" src="img/mike.png" style="max-width:275px;">
-                        <br>
-                        <br>
-                    </div>
-                    <div class="col-md-6 text-center" data-wow-delay="0.2s">
-                        <p class="lead">I am a 20 year old junior studying Computer Science at The State University at Buffalo. I am an amateur photographer with a love of computers.  I am a very outgoing, confident and hardworking young adult who strives for success!  I have solid experience in web development with HTML, CSS and Bootstrap.  Further details can be explained on my resume. blah blah blah blah blah blah blah jkldjwdjlqkwjdkdqkjkdl blahhhhh.  I am an amateur photographer with a love of computers.  I am a very outgoing, confident and hardworking young adult who strives for success!   I am an amateur photographer with a love of computers.  I am a very outgoing, confident and hardworking young adult who strives for success!</p>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
+
+<!--===================DESKTOP=====================================-->
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-10 col-lg-offset-1 block-center portrait">
+    <div id="content">
+    <div id="page">
+        <div class="L">
+            <a href=" portrait/gem1B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem1Bs.jpg" /></a>
         </div>
-        <br>
-        <!-- /.container -->
-    </section>
+        <div class="R">
+            <a href=" portrait/gem2B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem2Bs.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/gem3B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem3Bs.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/mikee.jpg" rel="shadowbox[gallery1]" title="Akron Falls, NY (Self Portrait)"><img src="portrait/mike.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/tyy.jpg" rel="shadowbox[gallery1]" title=""><img src="portrait/ty.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/nickk.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/nick.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/redd.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/red.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/uberr.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/uber.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/tenn.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/ten.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/ell.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/el.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/eightt.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/eight.jpg" /></a>
+        </div>
+         <div class="R">
+            <a href=" portrait/ninee.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo" ><img src="portrait/nine.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/fourr.jpg" rel="shadowbox[gallery1]" ><img src="portrait/four.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/fivee.jpg" rel="shadowbox[gallery1]" ><img src="portrait/five.jpg" /></a>
+        </div>
+        <div class="L">
+            <a href=" portrait/onee.jpg" rel="shadowbox[gallery1]" ><img src="portrait/one.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/twoo.jpg" rel="shadowbox[gallery1]" ><img src="portrait/two.jpg" /></a>
+        </div>
+        <div class="R">
+            <a href=" portrait/threee.jpg" rel="shadowbox[gallery1]" ><img src="portrait/three.jpg" /></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 
+<!--===================MOBILE======================================-->
 
-
+    <center><div id="mobilelayout">
+    <div id="mobilepage">
+        <div class="mobilespacing">
+            <img src="portrait/gem1B.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/gem2B.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/gem3B.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+         <div class="mobilespacing">
+            <img src="portrait/mikee.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/tyy.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+         <div class="mobilespacing">
+            <img src="portrait/nickk.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/uberr.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/redd.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/ell.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/tenn.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/ninee.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/eightt.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/fivee.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/fourr.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/threee.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/twoo.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+        <div class="mobilespacing">
+            <img src="portrait/onee.jpg" style="max-width: 470px; width:100%;"/>
+        </div>
+    </div>
+    </div></center>
+    
 <section class="container-fluid" id="socialsection">
     <div class="row" id="social">
         <!--fontawesome icons-->
@@ -154,7 +253,6 @@
     </div>
 </section>
 
-
     <!-- Footer -->
 <a class="anchor" id="contact"></a>
 <footer id="footer">
@@ -167,15 +265,15 @@
                 <h4>Conatct me at</h4>
                 <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff;">mike@michaelkulbacki.com</span>
             </div>
-            <div class=" col-md-8 block-center">
-                <br> <!-- You need to submit a form on every page to verify the page-->
-                <form action="http://formspree.io/mike@michaelkulbacki.com" method="POST" target="_blank">
+            <div class="col-md-8 block-center">
+                <br><!-- You need to submit a form on every page to verify the page-->
+                <form action="http://formspree.io/mike@michaelkulbacki.com" method="POST"target="_blank">
                         <input type="text" name="firstname" placeholder="Name" >
                         <input type="email" name="_replyto" placeholder="Email">
                         <input type="text" name="_subject" placeholder="Subject">
                         <textarea name="message" rows="5" placeholder="Message"></textarea>
                         <input type="text" name="_gotcha" style="display:none">
-                        <button type="submit" target="_new" style="float:right;" class="btn btn-lg">Send</button>
+                        <button type="submit" target="_new" style="float:right;" class="btn btn-lg" style="">Send</button>
                 </form>
             </div>
         </div>
@@ -194,7 +292,6 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-
     <!-- main jQuery -->
         <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
         <!-- jquery.nav -->
@@ -215,6 +312,7 @@
         <script src="js/effect/wow.min.js"></script>
         <!-- theme custom scripts -->
         <script src="js/effect/main.js"></script>
+
 
     <script>
     // Scrolls to the selected menu item on the page

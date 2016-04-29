@@ -30,7 +30,7 @@ body {
 }
 
 /* Landscape CSS */
-    #page {
+    .landscape #page {
     background-color: white;
     width:1000px;
     padding-bottom: 15px;
@@ -94,6 +94,26 @@ body {
     #bottom     {display: none;}
     }
 
+/* Portrait CSS  */
+    .portrait #page {
+    background-color: white;
+    width:1000px;
+    margin-bottom: 60px;  
+    margin-left: -25px;  
+    }
+
+ .L {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px; 
+    float: left;
+    }
+
+ .R {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    float: left;
+    }
 
 /* Custom Button Styles */
 

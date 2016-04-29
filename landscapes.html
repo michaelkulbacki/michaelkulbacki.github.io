@@ -10,21 +10,7 @@
     <link rel="shortcut icon" href="img/favicon.jpg"/>
     <meta name="author" content="Michael Kulbacki">
     
-
-    <title>Landscape | Michael Kulbacki</title>
-
-    <!-- Free-wall.js
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/freewall.js"></script>
-    <style type="text/css">
-        .free-wall {
-            margin: 15px;
-        }
-        .brick img {
-            margin: 0;
-            display: block;
-        }
-        </style>-->
+    <title>Landscapes | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -90,8 +76,8 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="http://michaelkulbacki.github.io/landscapes.html">Landscapes</a></li>
-                <li><a href="#">Portraits</a></li>
+                <li><a href="#top">Landscapes</a></li>
+                <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a></li>
             </ul>
             </li>
             <li class="dropdown">
@@ -111,12 +97,8 @@
       </div>
     </nav>
 
-    <!-- Header 
-    <header id="top" class="header">
-    
-    </header>-->
-
     <!-- Title -->
+<a class="anchor" id="top"></a>
 <section class="about" id ="about">
     <div class="container">
         <div class="row">
@@ -132,25 +114,11 @@
 </section>
 
 
-<!-- Free wall
-<div class="container">
-    <div class="row">
-    <div class="col-lg-6 block-center">
-        <div id="freewall" class="free-wall"></div>
-    </div>
-    <div class="col-lg-6 block-center">
-        <div id="freewallR" class="free-wall"></div>
-    </div>
-</div>
-</div>-->
-
-
-
 
 <!--===================DESKTOP=====================================-->
     <div class="container">
     <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 block-center">
+    <div class="col-lg-10 col-lg-offset-1 block-center landscape">
     <div id="content">
     <div id ="page">
         <div id="left" class="wow fadeInLeft" data-wow-delay="0.2">
@@ -384,7 +352,6 @@
         <div class="mobilespacing">
            <img src="landscape/forestt.jpg" style="max-width: 470px; width:100%;"/>
         </div>
-            <!--<center style="color:white; padding:8px;">What do you think of my work?? Let me know down below!</center>-->
     </div>
     </div></center>
     
@@ -433,7 +400,7 @@
         <!--/row-->
         <br>
         <br>
-        <p class="text-center" style="color:#9900ff;">Last Updated: April 2016 | Version 2.6.3</p>
+        <p class="text-center" style="color:#9900ff;">Last Updated: April 2016 | Version 2.6.4</p>
         <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
     </div>
 </footer>
@@ -443,34 +410,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- FreeWall
-    <script type="text/javascript">
-            
-            var temp = "<div class='brick' style='width:{width}px;'><img src='landscape/{index}.jpg' width='100%'></div>";
-            var w = 1, h = 1, html = '', limitItem = 35;
-            for (var i = limitItem; 0 < i; --i) {
-                w = 1+ 3 * Math.random() << 0;
-                html += temp.replace(/\{width\}/g, w*300).replace("{index}", i);
-            }
-            $("#freewall").html(html);
-            
-            var wall = new Freewall("#freewall");
-            wall.reset({
-                selector: '.brick',
-                animate: true,
-                cellW: 300,
-                cellH: 'auto',
-                onResize: function() {
-                    wall.fitWidth();
-                }
-            });
-
-            var landscape = wall.container.find('.brick');
-            landscape.find('img').load(function() {
-                wall.fitWidth();
-            });
-
-        </script>-->
 
     <!-- Custom Theme JavaScript -->
     <!-- main jQuery -->
