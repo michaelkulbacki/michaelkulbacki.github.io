@@ -177,7 +177,7 @@ hr.medium {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 /* Services */
@@ -241,19 +241,24 @@ form .btn-lg:hover {
     text-decoration: none;
 }
 
-/* Callout the pic with text kinda thing
+/* Callout the pic with text kinda thing*/
 
 .callout {
     display: table;
     width: 100%;
     height: 300px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+   background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/davis.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}*/
+}
 
 /* Portfolio */
 
