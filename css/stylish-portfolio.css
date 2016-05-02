@@ -152,8 +152,12 @@ body {
 .services hr {
     border-top: 1px solid white;
 }
-.resume hr {
+.resume, .courses hr {
     border-top: 1px solid white;
+}
+
+.purple hr {
+    border-top: 1px solid white;   
 }
 
 hr {
@@ -218,6 +222,11 @@ a.anchor {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.purple {
+    background-color: #9900ff;
+    color: white;
 }
 
 /* About */
