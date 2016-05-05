@@ -301,6 +301,7 @@ form .btn-lg:hover {
 #socialsection i:hover {
     color: #9900ff;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Callout the pic with text kinda thing*/
@@ -376,10 +377,6 @@ form .btn-lg:hover {
     #mobilecourse {display: none;}
 }
 
-#social a { color: white;}
-#social a:hover {
-    color: #337ab7;;
-}
 
 /* Footer */
 
@@ -387,3 +384,4 @@ footer {
     padding: 20px 0 20px 0;
 
 }
+/*-----------------------------------------------*/
