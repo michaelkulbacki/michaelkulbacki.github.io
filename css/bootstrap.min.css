@@ -150,7 +150,7 @@ button:hover, a.button:hover {
  .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#9900ff} /* hover color in toggle button */
  .navbar-inverse .navbar-toggle .icon-bar{background-color:white}/*inner bars color*/
 
- .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color:2px #9900ff} /*border color*/
+ .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-top: 2px solid #9900ff} /*border color*/
  .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover{color:white;background-color:#080808; transition: all 0.3s ease-in-out;}
 
  @media (max-width:994px){.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#080808} /*color of dropdown when in mobile*/
