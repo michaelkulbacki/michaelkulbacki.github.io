@@ -294,6 +294,9 @@ form .btn-lg:hover {
 }
 
 /* Social Media Icons */
+#socialsection {
+    display: block;
+}
 #socialsection i {
     color: white;
     text-decoration: none;
