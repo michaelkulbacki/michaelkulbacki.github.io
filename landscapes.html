@@ -88,7 +88,7 @@
             </ul>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="http://michaelkulbacki.github.io/contact.html" onclick = $("#menu-close").click(); >Contact</a>
             </li>
           </ul>
 
@@ -355,51 +355,63 @@
     </div></center>
     
 <section class="container-fluid" id="socialsection">
-    <div class="row" id="social">
+    <div class="row col-md-offset-3" id="social">
         <!--fontawesome icons-->
-        <div class="col-sm-1 col-sm-offset-4 col-xs-3 text-center">
+        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
             <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new"><i class="fa fa-flickr fa-2x"></i></a>
         </div>
-        <div class="col-sm-1 col-xs-3 text-center">
+        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
             <a href="https://www.facebook.com/mike.d.kulbacki" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a>
         </div>
-        <div class="col-sm-1 col-xs-3 text-center">
+        <div class=" col-xs-3 col-sm-3  col-md-2 text-center">
             <a href="https://www.instagram.com/michaelbacki/" target="_new"><i class="fa fa-instagram fa-2x"></i></a>
         </div>
-        <div class="col-sm-1 col-xs-3 text-center">
+        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
             <a href="https://twitter.com/michaelbacki" target="_new"><i class="fa fa-twitter-square fa-2x"></i></a>
         </div>
     </div>
 </section>
+
 
     <!-- Footer -->
 <a class="anchor" id="contact"></a>
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 column text-center wow fadeInLeft" data-wow-delay="0.2s">
-                <br>
+            <div class="col-md-4 col-xs-12 column text-center" data-wow-delay="0.2s">
                 <img src="img/footMK.png" style=" max-width:100px;"/>
-                <h3><strong>Michael Kulbacki</strong></h3>
-                <h4>Conatct me at</h4>
-                <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff;">michaelkulbacki@gmail.com</span>
+                <h4><strong>Michael Kulbacki</strong></h4>
+                <h5>Conatct me at</h5>
+                <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff; padding-left:5px;"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
+                <hr class="mobileHR">
             </div>
-            <div class="col-md-8 block-center">
-                <br><!-- You need to submit a form on every page to verify the page-->
-                <form action="https://formspree.io/michaelkulbacki@gmail.com" method="POST"target="_blank">
-                        <input type="text" name="firstname" placeholder="Name" >
-                        <input type="email" name="_replyto" placeholder="Email">
-                        <input type="text" name="_subject" placeholder="Subject">
-                        <textarea name="message" rows="5" placeholder="Message"></textarea>
-                        <input type="text" name="_gotcha" style="display:none">
-                        <button type="submit" target="_new" style="float:right;" class="btn btn-lg" style="">Send</button>
-                </form>
+            
+            <br>
+            <div class="col-xs-6 col-md-4 contentBR contentBL mobilecontentB footerLinks">
+                <ul class="list-unstyled nav-list">
+                    <a href="http://michaelkulbacki.github.io/"><li>Home</li></a>
+                    <a href="http://michaelkulbacki.github.io/about.html"><li>About</li></a>
+                    <a href="http://michaelkulbacki.github.io/projects.html"><li>CS Projects</li></a>
+                    <a href="http://michaelkulbacki.github.io/#"><li>Work Experience</li></a>
+                    <a href="http://michaelkulbacki.github.io/courses.html"><li>Courses</li></a>
+                </ul>
             </div>
+
+            <div class="col-xs-6 col-md-4 block footerLinks">
+                <ul class="list-unstyled nav-list">
+                    <li>Portfolio</li>
+                    <a href="http://michaelkulbacki.github.io/landscapes.html"><li>Landscapes</li></a>
+                    <a href="http://michaelkulbacki.github.io/portraits.html"><li>Portraits</li></a>
+                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf"><li>Resume</li></a>
+                    <a href="http://michaelkulbacki.github.io/contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+
         </div>
         <!--/row-->
         <br>
         <br>
-        <p class="text-center" style="color:#9900ff;">Last Updated: April 2016 | Version 2.8.1</p>
+        <p class="text-center" style="color:#9900ff;">Last Updated: April 2016 | Version 2.9.0</p>
         <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
     </div>
 </footer>

@@ -29,6 +29,30 @@ body {
     font-weight: 700;
 }
 
+.contentBR {
+    border-right: 1px solid #9900ff;
+}
+
+.contentBL {
+    border-left: 1px solid #9900ff;
+}
+
+.mobilecontentB {
+    border-right: 1px solid #9900ff;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerLinks a:hover {
+    text-decoration: none;
+    font-weight: bold ;
+    color: #9900ff;
+    transition: all 0.2s ease-in-out; 
+
+}
 /* Landscape CSS */
     .landscape #page {
     background-color: white;
@@ -282,7 +306,7 @@ a {
 
 a:hover {
     color: #a7a7a7;
-    text-decoration: underline;
+    text-decoration: none;
 }
 /*email send button */
 form button {
@@ -376,19 +400,27 @@ form .btn-lg:hover {
 
 @media(max-width: 994px){
     #name {display: none;}
+    .contentBL { border-left: none;}
+    .contentBR { border-right: none;}
     #desktopcourse {display: none;}
 }
 
 @media(min-width: 994px){
     #team {display: none;}
     #mobilecourse {display: none;}
+    .mobileHR{display: none;}
 }
 
-
+@media only screen and (max-width: 994px) {}
+    #footer {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
 /* Footer */
 
 footer {
     padding: 20px 0 20px 0;
-
 }
 /*-----------------------------------------------*/
