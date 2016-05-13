@@ -403,21 +403,24 @@ form .btn-lg:hover {
     .contentBL { border-left: none;}
     .contentBR { border-right: none;}
     #desktopcourse {display: none;}
-}
-
-@media(min-width: 994px){
-    #team {display: none;}
-    #mobilecourse {display: none;}
-    .mobileHR{display: none;}
-}
-
-@media only screen and (max-width: 994px) {}
     #footer {
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 }
+
+@media(min-width: 994px){
+    #team {display: none;}
+    #mobilecourse {display: none;}
+    .mobileHR{display: none;}
+    #footer {
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 /* Footer */
 
 footer {
