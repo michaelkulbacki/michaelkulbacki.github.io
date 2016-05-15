@@ -111,6 +111,10 @@ body {
     margin-top: 9px;
     }
 
+    .mobilespacing:hidden {
+        display: none;
+    }
+
     @media screen and (max-width :1100px){
     #content    {display:none;}
     .spacing    {display:none;}
@@ -207,6 +211,10 @@ hr.projects {
 
 hr.green {
     border-top: 1px solid #00cc33;
+}
+
+hr.red {
+    border-top: 1px solid red;
 }
 
 .h2margin h2 {
@@ -426,4 +434,12 @@ form .btn-lg:hover {
 footer {
     padding: 20px 0 20px 0;
 }
+
+/* Carousel*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
 /*-----------------------------------------------*/
