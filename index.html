@@ -23,6 +23,21 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <style>
+        .navbar-inverse {
+            background:transparent;
+            border-color: transparent;
+        }
+        #navMike {display: none;}
+        .navbar-inverse .navbar-toggle {
+            border-color: white;
+            background-color: transparent;
+        }
+        @media(max-width: 994px){
+            .navbar-inverse ul {background-color: rgba(0, 0, 0, 0.5);}
+        }
+        .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:transparent;}
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +53,7 @@
     <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
+        <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png"  id="navMike" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
         <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro;">Michael Kulbacki</span></a>
         <div class="navbar-header">
 
@@ -287,31 +302,32 @@
                 <hr class="mobileHR">
             </div>
             
-            <br>
+            
             <div class="col-xs-6 col-md-3 footerLinks" style="padding-left:50px;">
                 <ul class="list-unstyled nav-list">
-                    <a href="http://michaelkulbacki.github.io/"><li>Home</li></a>
-                    <a href="http://michaelkulbacki.github.io/about.html"><li>About</li></a>
-                    <a href="http://michaelkulbacki.github.io/projects.html"><li>CS Projects</li></a>
-                    <a href="http://michaelkulbacki.github.io/#"><li>Work Experience</li></a>
-                    <a href="http://michaelkulbacki.github.io/courses.html"><li>Courses</li></a>
+                    <a href="http://michaelkulbacki.github.io/"><li class="paddlist" >Home</li></a>
+                    <a href="http://michaelkulbacki.github.io/about.html"><li class="paddlist" >About</li></a>
+                    <a href="http://michaelkulbacki.github.io/projects.html"><li class="paddlist" >CS Projects</li></a>
+                    <a href="http://michaelkulbacki.github.io/#"><li class="paddlist" >Work Experience</li></a>
+                    <a href="http://michaelkulbacki.github.io/courses.html"><li class="paddlist" >Courses</li></a>
                 </ul>
             </div>
 
             <div class="col-xs-6 col-md-4 block footerLinks">
                 <ul class="list-unstyled nav-list">
-                    <a href="#portfolio"><li>Portfolio</li></a>
-                    <a href="http://michaelkulbacki.github.io/landscapes.html"><li>Landscapes</li></a>
-                    <a href="http://michaelkulbacki.github.io/portraits.html"><li>Portraits</li></a>
-                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf"><li>Resume</li></a>
-                    <a href="http://michaelkulbacki.github.io/contact.html"><li>Contact</li></a>
+                    <a href="#portfolio"><li class="paddlist" >Portfolio</li></a>
+                    <a href="http://michaelkulbacki.github.io/landscapes.html"><li class="paddlist" >Landscapes</li></a>
+                    <a href="http://michaelkulbacki.github.io/portraits.html"><li class="paddlist" >Portraits</li></a>
+                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf"><li class="paddlist" >Resume</li></a>
+                    <a href="http://michaelkulbacki.github.io/contact.html"><li class="paddlist" >Contact</li></a>
                 </ul>
             </div>
+            
         </div>
         <!--/row-->
         <br>
         <br>
-        <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.2</p>
+        <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.3</p>
         <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
     </div>
 </footer>
@@ -364,6 +380,34 @@
     });
     </script>
 
+    <!-- Nav Bar Color Changing -->
+    <script>
+        $(document).ready(function(){  
+        var mq = window.matchMedia("(min-width: 994px)");     
+        var scroll_start = 1;
+        var startchange = $('#about');
+        var offset = startchange.offset();
+        $(document).scroll(function() { 
+        scroll_start = $(this).scrollTop()+1;
+        if(scroll_start > offset.top) {
+          $('.navbar-inverse').css('background-color', 'black');
+          $('.navbar-inverse').css('border-color', '#9900ff');
+          $('#navMike').css('display', 'block');
+          $('.navbar-inverse').css('transition','all 0.3s ease-in-out');
+            } else {
+          $('.navbar-inverse').css('background-color', 'transparent');
+          $('.navbar-inverse').css('border-color', 'transparent');
+          $('#navMike').css('display', 'none');
+          if(mq.matches){
+            $('.navbar-inverse ul').css('background-color','transparent');
+          }else {
+            $('.navbar-inverse ul').css('background-color','rgba(0, 0, 0, 0.4)');
+          }
+          
+       }
+        });
+    });
+    </script>
 </body>
 
 </html>

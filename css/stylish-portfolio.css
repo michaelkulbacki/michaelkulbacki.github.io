@@ -30,7 +30,7 @@ body {
 }
 
 .contentBR {
-    border-right: 1px solid #9900ff;
+    border-right: 1px solid #a7a7a7;
 }
 
 .contentBL {
@@ -225,6 +225,7 @@ hr.red {
     margin-top: 0px;
 }
 
+.paddlist {padding-bottom: 11px;}
 /*------------------*/
 #menu-toggle {
     z-index: 1;

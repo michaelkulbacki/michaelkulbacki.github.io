@@ -147,7 +147,7 @@ button:hover, a.button:hover {
  .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{color:#fff;background-color:#080808; transition: all 0.3s ease-in-out;}
  .navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:focus,.navbar-inverse .navbar-nav>.disabled>a:hover{color:#444;background-color:transparent; transition: all 0.3s ease-in-out;}
 
- .navbar-inverse .navbar-toggle{border-color:white; background-color: #9900ff;} /*button color*/
+ .navbar-inverse .navbar-toggle{border-color:white; background-color: black;} /*button color*/
  .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#9900ff} /* hover color in toggle button */
  .navbar-inverse .navbar-toggle .icon-bar{background-color:white}/*inner bars color*/
 
