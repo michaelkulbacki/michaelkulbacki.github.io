@@ -222,6 +222,10 @@ hr.red {
     border-top: 1px solid red;
 }
 
+hr.mimir {
+    border-top: 1px solid #669999;
+}
+
 .h2margin h2 {
     margin-top: 0px;
 }
