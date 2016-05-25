@@ -7,9 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no">
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
-    <link rel="shortcut icon" href="img/favicon.jpg"/>
+    <link rel="shortcut icon" href="img/favicon.jpg" />
     <meta name="author" content="Michael Kulbacki">
-    
     <title>Landscapes | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
@@ -21,8 +20,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
     <script type="text/javascript" src="shadow/shadowbox.js"></script>
-    <script type="text/javascript">Shadowbox.init();</script>
-        
+    <script type="text/javascript">
+        Shadowbox.init();
+    </script>
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -39,381 +40,442 @@
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
-          <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro">Michael Kulbacki</span></a>
-        <div class="navbar-header">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
+            <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro">Michael Kulbacki</span></a>
+            <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/projects.html">CS Projects</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/work.html">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/courses.html">Courses</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#top">Landscapes</a>
+                            </li>
+                            <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a>
+                            </li>
+                            <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="http://michaelkulbacki.github.io/" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/about.html" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/projects.html" onclick = $("#menu-close").click(); >CS Projects</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/work.html" onclick = $("#menu-close").click(); >Work Experience</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/courses.html" onclick = $("#menu-close").click(); >Courses</a>
-            </li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#top">Landscapes</a></li>
-                <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a></li>
-            </ul>
-            </li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a></li>
-                <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a></li>
-            </ul>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/contact.html" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-          </ul>
-
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
 
     <!-- Title -->
-<a class="anchor" id="top"></a>
-<section class="about" id ="about">
+    <a class="anchor" id="top"></a>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <br>
+                    <h1>Landscapes</h1>
+                    <hr class="medium">
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+
+    <!--===================DESKTOP=====================================-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center wow fadeInDown">
-                <br>
-                <h1>Landscapes</h1>
-                <hr class="medium">
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
+            <div class="col-lg-10 col-lg-offset-1 block-center landscape">
+                <div id="content">
+                    <div id="page">
+                        <div id="left" class="wow fadeInLeft" data-wow-delay="0.2">
+                            <div class="horz">
+                                <a href=" landscape/clockk.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo"><img src="landscape/clock.jpg" />
+                                </a>
+                            </div>
+                            <div class="vl">
+                                <a href=" landscape/moonn.jpg" rel="shadowbox[gallery]" title="Blood Moon 2015"><img src="landscape/moon.jpg" />
+                                </a>
+                            </div>
+                            <div class="vr">
+                                <a href=" landscape/stonee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stone.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/mossyy.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/mossy.jpg" />
+                                </a>
+                            </div>
+                            <div class="vl">
+                                <a href=" landscape/tallfalll.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/tallfall.jpg" />
+                                </a>
+                            </div>
+                            <div class="vr">
+                                <a href=" landscape/streamm.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stream.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/afiree.jpg" rel="shadowbox[gallery]" title="Crystal Beach Fireworks (combined)"><img src="landscape/afire.jpg" />
+                                </a>
+                            </div>
+                            <div class="vl">
+                                <a href=" landscape/firee.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/fire.jpg" />
+                                </a>
+                            </div>
+                            <div class="vr">
+                                <a href=" landscape/trii.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/tri.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/bigg.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/big.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/beachh.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/beach.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/nigh.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape"><img src="landscape/night.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/fal.jpg" rel="shadowbox[gallery]" title="Fall in Buffalo"><img src="landscape/fall.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/reflec.jpg" rel="shadowbox[gallery]" title="Greiner Hall, UB"><img src="landscape/reflect.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/famm.jpg" rel="shadowbox[gallery]" title="Family in Clearwater"><img src="landscape/fam.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/tree.jpg" rel="shadowbox[gallery]" title="Winter on UB Campus"><img src="landscape/trees.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/leaff.jpg" rel="shadowbox[gallery]" title="Fall Leaves"><img src="landscape/leaf.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/davis.jpg" rel="shadowbox[gallery]" title="University at Buffalo"><img src="landscape/dave.jpg" />
+                                </a>
+                            </div>
+                        </div>
 
-
-
-<!--===================DESKTOP=====================================-->
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 block-center landscape">
-    <div id="content">
-    <div id ="page">
-        <div id="left" class="wow fadeInLeft" data-wow-delay="0.2">
-            <div class="horz">
-                <a href=" landscape/clockk.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo" ><img src="landscape/clock.jpg" /></a>
-            </div>
-            <div class="vl">
-                <a href=" landscape/moonn.jpg" rel="shadowbox[gallery]" title="Blood Moon 2015"><img src="landscape/moon.jpg" /></a>
-            </div>
-            <div class="vr">
-                <a href=" landscape/stonee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stone.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/mossyy.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY" ><img src="landscape/mossy.jpg" /></a>
-            </div>
-            <div class="vl">
-                <a href=" landscape/tallfalll.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/tallfall.jpg" /></a>
-            </div>
-            <div class="vr">
-                <a href=" landscape/streamm.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stream.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/afiree.jpg" rel="shadowbox[gallery]" title="Crystal Beach Fireworks (combined)" ><img src="landscape/afire.jpg" /></a>
-            </div>
-            <div class="vl">
-                <a href=" landscape/firee.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/fire.jpg" /></a>
-            </div>
-            <div class="vr">
-                <a href=" landscape/trii.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/tri.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/bigg.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/big.jpg" /></a>
-            </div>
-            <div class="horz">
-            <a href=" landscape/beachh.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/beach.jpg" /></a>
-            </div>
-             <div class="horz">
-                <a href=" landscape/nigh.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape"><img src="landscape/night.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/fal.jpg" rel="shadowbox[gallery]" title="Fall in Buffalo"><img src="landscape/fall.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/reflec.jpg" rel="shadowbox[gallery]" title="Greiner Hall, UB"><img src="landscape/reflect.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/famm.jpg" rel="shadowbox[gallery]" title="Family in Clearwater"><img src="landscape/fam.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/tree.jpg" rel="shadowbox[gallery]" title="Winter on UB Campus"><img src="landscape/trees.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/leaff.jpg" rel="shadowbox[gallery]" title="Fall Leaves"><img src="landscape/leaf.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/davis.jpg" rel="shadowbox[gallery]" title="University at Buffalo"><img src="landscape/dave.jpg" /></a>
-            </div>
-        </div>
-
-        <div id="right" class="wow fadeInRight" data-wow-delay="0.2">
-            <div class="horz">
-                <a href=" landscape/onebuff.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo" ><img src="landscape/onebuf.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/canall.jpg" rel="shadowbox[gallery]" title="Canalside Buffalo" ><img src="landscape/canal.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/acrosss.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY" ><img src="landscape/across.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/leftt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida" ><img src="landscape/left.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/rightt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/right.jpg" /></a>
-            </div>
-           <div class="horz">
-                <a href=" landscape/bridg.jpg" rel="shadowbox[gallery]" title="Peace Bridge" ><img src="landscape/bridge.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/ligh.jpg" rel="shadowbox[gallery]" title="Highway Light Trail"><img src="landscape/light.jpg" /></a>
-            </div>
-             <div class="horz">
-                <a href=" landscape/dayy.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/day.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/peacee.jpg" rel="shadowbox[gallery]" title="Peace Bridge"><img src="landscape/peace.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/panoo.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/pano.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/sunsett.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/sunset.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/closee.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/close.jpg" /></a>
-            </div>
-            <div class="vl">
-                <a href=" landscape/sunn.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/sun.jpg" /></a>
-            </div>
-            <div class="vr">
-                <a href=" landscape/walkk.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/walk.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/waterfal.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/waterfall.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/movee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/move.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/forestt.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/forest.jpg" /></a>
-            </div>
-            <div class="horz">
-                <a href=" landscape/clearr.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape (Other view)"><img src="landscape/clear.jpg" /></a>
+                        <div id="right" class="wow fadeInRight" data-wow-delay="0.2">
+                            <div class="horz">
+                                <a href=" landscape/onebuff.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo"><img src="landscape/onebuf.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/canall.jpg" rel="shadowbox[gallery]" title="Canalside Buffalo"><img src="landscape/canal.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/acrosss.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/across.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/leftt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/left.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/rightt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/right.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/bridg.jpg" rel="shadowbox[gallery]" title="Peace Bridge"><img src="landscape/bridge.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/ligh.jpg" rel="shadowbox[gallery]" title="Highway Light Trail"><img src="landscape/light.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/dayy.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/day.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/peacee.jpg" rel="shadowbox[gallery]" title="Peace Bridge"><img src="landscape/peace.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/panoo.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/pano.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/sunsett.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/sunset.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/closee.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/close.jpg" />
+                                </a>
+                            </div>
+                            <div class="vl">
+                                <a href=" landscape/sunn.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/sun.jpg" />
+                                </a>
+                            </div>
+                            <div class="vr">
+                                <a href=" landscape/walkk.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/walk.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/waterfal.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/waterfall.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/movee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/move.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/forestt.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/forest.jpg" />
+                                </a>
+                            </div>
+                            <div class="horz">
+                                <a href=" landscape/clearr.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape (Other view)"><img src="landscape/clear.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
     </div>
 
-<!--===================MOBILE======================================-->
+    <!--===================MOBILE======================================-->
 
-    <center><div id="mobilelayout">
-    <div id="mobilepage" class="wow fadeInDown" data-wow-delay="0.2s">
-        <div class="mobilespacing">
-            <img src="landscape/clockk.jpg" style="max-width: 470px; width:100%;"/>
+    <center>
+        <div id="mobilelayout">
+            <div id="mobilepage" class="wow fadeInDown" data-wow-delay="0.2s">
+                <div class="mobilespacing">
+                    <img src="landscape/clockk.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/onebuff.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/moonn.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/stonee.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/mossyy.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/tallfalll.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/streamm.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/acrosss.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/canall.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/afiree.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/firee.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/trii.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/bigg.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/leftt.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/rightt.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/bridg.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/ligh.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/dayy.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/peacee.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/beachh.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/nigh.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/fal.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/reflec.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/davis.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/famm.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/tree.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/leaff.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/clearr.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/panoo.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/sunsett.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/closee.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/sunn.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/walkk.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/waterfal.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/movee.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+                <div class="mobilespacing">
+                    <img src="landscape/forestt.jpg" style="max-width: 470px; width:100%;" />
+                </div>
+            </div>
         </div>
-        <div class="mobilespacing">
-            <img src="landscape/onebuff.jpg" style="max-width: 470px; width:100%;"/>
+    </center>
+
+    <section class="container-fluid" id="socialsection">
+        <div class="row col-md-offset-3" id="social">
+            <!--fontawesome icons-->
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new"><i class="fa fa-flickr fa-2x"></i></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://www.facebook.com/mike.d.kulbacki" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </div>
+            <div class=" col-xs-3 col-sm-3  col-md-2 text-center">
+                <a href="https://www.instagram.com/michaelbacki/" target="_new"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://twitter.com/michaelbacki" target="_new"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </div>
         </div>
-        <div class="mobilespacing">
-            <img src="landscape/moonn.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/stonee.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/mossyy.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/tallfalll.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/streamm.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/acrosss.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/canall.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/afiree.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/firee.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/trii.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/bigg.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/leftt.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/rightt.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/bridg.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div  class="mobilespacing">
-            <img src="landscape/ligh.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-         <div class="mobilespacing">
-            <img src="landscape/dayy.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div  class="mobilespacing">
-           <img src="landscape/peacee.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/beachh.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-         <div class="mobilespacing">
-            <img src="landscape/nigh.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-           <img src="landscape/fal.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-          <div class="mobilespacing">
-            <img src="landscape/reflec.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/davis.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-           <img src="landscape/famm.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-           <img src="landscape/tree.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-           <img src="landscape/leaff.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/clearr.jpg" style="max-width: 470px; width:100%;" />
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/panoo.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/sunsett.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/closee.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/sunn.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/walkk.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/waterfal.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-            <img src="landscape/movee.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-        <div class="mobilespacing">
-           <img src="landscape/forestt.jpg" style="max-width: 470px; width:100%;"/>
-        </div>
-    </div>
-    </div></center>
-    
-<section class="container-fluid" id="socialsection">
-    <div class="row col-md-offset-3" id="social">
-        <!--fontawesome icons-->
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new"><i class="fa fa-flickr fa-2x"></i></a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://www.facebook.com/mike.d.kulbacki" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a>
-        </div>
-        <div class=" col-xs-3 col-sm-3  col-md-2 text-center">
-            <a href="https://www.instagram.com/michaelbacki/" target="_new"><i class="fa fa-instagram fa-2x"></i></a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://twitter.com/michaelbacki" target="_new"><i class="fa fa-twitter-square fa-2x"></i></a>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Footer -->
-<a class="anchor" id="contact"></a>
-<footer id="footer">
-    <div class="container">
-        <div class="row col-md-offset-2">
-            <div class="col-xs-12 col-md-4 column text-center contentBR">
-                <img src="img/footMK.png" style=" max-width:100px;"/>
-                <h4><strong>Michael Kulbacki</strong></h4>
-                <h5>Conatct me at</h5>
-                <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff; padding-left:5px;"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
-                <hr class="mobileHR">
-            </div>
-            
-            <div class="col-xs-6 col-md-3 footerLinks" style="padding-left:50px;">
-                <ul class="list-unstyled nav-list">
-                    <a href="http://michaelkulbacki.github.io/"><li class="paddlist" >Home</li></a>
-                    <a href="http://michaelkulbacki.github.io/about.html"><li class="paddlist" >About</li></a>
-                    <a href="http://michaelkulbacki.github.io/projects.html"><li class="paddlist" >CS Projects</li></a>
-                    <a href="http://michaelkulbacki.github.io/work.html"><li class="paddlist" >Work Experience</li></a>
-                    <a href="http://michaelkulbacki.github.io/courses.html"><li class="paddlist" >Courses</li></a>
-                </ul>
-            </div>
+    <a class="anchor" id="contact"></a>
+    <footer id="footer">
+        <div class="container">
+            <div class="row col-md-offset-2">
+                <div class="col-xs-12 col-md-4 column text-center contentBR">
+                    <img src="img/footMK.png" style=" max-width:100px;" />
+                    <h4><strong>Michael Kulbacki</strong></h4>
+                    <h5>Conatct me at</h5>
+                    <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff; padding-left:5px;"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
+                    <hr class="mobileHR">
+                </div>
 
-            <div class="col-xs-6 col-md-4 block footerLinks">
-                <ul class="list-unstyled nav-list">
-                    <li class="paddlist">Portfolio</li>
-                    <a href="http://michaelkulbacki.github.io/landscapes.html"><li class="paddlist" >Landscapes</li></a>
-                    <a href="http://michaelkulbacki.github.io/portraits.html"><li class="paddlist" >Portraits</li></a>
-                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf"><li class="paddlist" >Resume</li></a>
-                    <a href="http://michaelkulbacki.github.io/contact.html"><li class="paddlist" >Contact</li></a>
-                </ul>
-            </div>
+                <div class="col-xs-6 col-md-3 footerLinks" style="padding-left:50px;">
+                    <ul class="list-unstyled nav-list">
+                        <a href="http://michaelkulbacki.github.io/">
+                            <li class="paddlist">Home</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/about.html">
+                            <li class="paddlist">About</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/projects.html">
+                            <li class="paddlist">CS Projects</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/work.html">
+                            <li class="paddlist">Work Experience</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/courses.html">
+                            <li class="paddlist">Courses</li>
+                        </a>
+                    </ul>
+                </div>
 
+                <div class="col-xs-6 col-md-4 block footerLinks">
+                    <ul class="list-unstyled nav-list">
+                        <li class="paddlist">Portfolio</li>
+                        <a href="http://michaelkulbacki.github.io/landscapes.html">
+                            <li class="paddlist">Landscapes</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/portraits.html">
+                            <li class="paddlist">Portraits</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf">
+                            <li class="paddlist">Resume</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/contact.html">
+                            <li class="paddlist">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+            <!--/row-->
+            <br>
+            <br>
+            <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.6</p>
+            <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
         </div>
-        <!--/row-->
-        <br>
-        <br>
-        <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.5</p>
-        <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
-    </div>
-</footer>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -423,54 +485,59 @@
 
     <!-- Custom Theme JavaScript -->
     <!-- main jQuery -->
-        <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
-        <!-- jquery.nav -->
-        <script src="js/effect/jquery.nav.js"></script>
-        <!-- Portfolio Filtering -->
-        <script src="js/effect/jquery.mixitup.min.js"></script>
-        <!-- Fancybox -->
-        <script src="js/effect/jquery.fancybox.pack.js"></script>
-        <!-- Parallax sections -->
-        <script src="js/effect/jquery.parallax-1.1.3.js"></script>
-        <!-- jQuery Appear -->
-        <script src="js/effect/jquery.appear.js"></script>
-        <!-- countTo -->
-        <script src="js/effect/jquery-countTo.js"></script>
-        <!-- owl carousel -->
-        <script src="js/effect/owl.carousel.min.js"></script>
-        <!-- WOW script -->
-        <script src="js/effect/wow.min.js"></script>
-        <!-- theme custom scripts -->
-        <script src="js/effect/main.js"></script>
+    <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
+    <!-- jquery.nav -->
+    <script src="js/effect/jquery.nav.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="js/effect/jquery.mixitup.min.js"></script>
+    <!-- Fancybox -->
+    <script src="js/effect/jquery.fancybox.pack.js"></script>
+    <!-- Parallax sections -->
+    <script src="js/effect/jquery.parallax-1.1.3.js"></script>
+    <!-- jQuery Appear -->
+    <script src="js/effect/jquery.appear.js"></script>
+    <!-- countTo -->
+    <script src="js/effect/jquery-countTo.js"></script>
+    <!-- owl carousel -->
+    <script src="js/effect/owl.carousel.min.js"></script>
+    <!-- WOW script -->
+    <script src="js/effect/wow.min.js"></script>
+    <!-- theme custom scripts -->
+    <script src="js/effect/main.js"></script>
 
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-65357606-2', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-65357606-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-</script>
-
-<script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if(target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
-            }
+            });
         });
-    });
     </script>
 
 </body>

@@ -7,9 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no">
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
-    <link rel="shortcut icon" href="img/favicon.jpg"/>
+    <link rel="shortcut icon" href="img/favicon.jpg" />
     <meta name="author" content="Michael Kulbacki">
-
     <title>CS Projects | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
@@ -36,235 +35,259 @@
 <body>
 
     <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
-        <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro;">Michael Kulbacki</span></a>
-        <div class="navbar-header">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
+            <a class="navbar-brand" id="name"><span style="font-family:Source Sans Pro;">Michael Kulbacki</span></a>
+            <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#top">CS Projects</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/work.html">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/courses.html">Courses</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://michaelkulbacki.github.io/landscapes.html">Landscapes</a>
+                            </li>
+                            <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a>
+                            </li>
+                            <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="http://michaelkulbacki.github.io/" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/about.html" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >CS Projects</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/work.html" onclick = $("#menu-close").click(); >Work Experience</a>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/courses.html" onclick = $("#menu-close").click(); >Courses</a>
-            </li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="http://michaelkulbacki.github.io/landscapes.html">Landscapes</a></li>
-                <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a></li>
-            </ul>
-            </li>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a></li>
-                <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a></li>
-            </ul>
-            </li>
-            <li>
-                <a href="http://michaelkulbacki.github.io/contact.html" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-          </ul>
-
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
 
     <!-- Title -->
-<a class="anchor" id="top"></a>
-<section class="about" id ="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow fadeInDown">
+    <a class="anchor" id="top"></a>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <br>
+                    <h1>Computer Science Projects</h1>
+                    <hr class="projects">
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <div class="container top-buffer">
+        <a class="anchor" id="mirror"></a>
+        <div class="row lead">
+            <div class="col-md-12" id="desktopcourse">
+                <img src="img/mirrorname.png" style="max-width:320px; width:100%; padding-bottom:-30px;" />
+                <hr>
+            </div>
+            <div class="col-md-12" id="mobilecourse">
+                <img src="img/mirrorname.png" class="center-block" style="max-width:320px; width:100%;" />
+                <hr>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>My team and I created a Smart Mirror in 24 hours at the University Buffalo Hackathon this fall! Out of 250+ hackers, my team took <b>3rd place</b>!</li>
+                    <li>We used a one-way piece of glass mounted to a standard computer monitor and a Raspberry Pi to power it. The glass would act as a perfect mirror until the monitor light shined through to display the desired content. Yahoo's Weather API allowed us to grab weather information for any location. We also implemented a live twitter feed to display the users timeline along with a stock ticker. The idea behind this was people constantly want to be connected to the world around them and this was a creative approach to that concept.</li>
+                    <li>My involvement on the project was mainly the design of the interface along with the HTML, CSS and JavaScript coding.</li>
+                </ul>
+            </div>
+            <br>
+
+            <div class="col-md-6 portfolio-item">
+                <center><img src="img/mirror.png" id="mirror" class="img-responsive" style="max-width:380px; width:100%;" />
+                </center>
                 <br>
-                <h1>Computer Science Projects</h1>
-                <hr class="projects">
+                <center><img src="img/team.jpg" id="team" class="img-responsive" style="max-width:380px; width:100%;" />
+                </center>
             </div>
         </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
 
-<div class="container top-buffer">
-      <a class="anchor" id="mirror"></a>
-      <div class="row lead">
-        <div class="col-md-12" id="desktopcourse">
-          <img src="img/mirrorname.png" style="max-width:320px; width:100%; padding-bottom:-30px;"/>
-          <hr>
-        </div>
-        <div class="col-md-12" id="mobilecourse">
-          <img src="img/mirrorname.png" class="center-block" style="max-width:320px; width:100%;"/>
-          <hr>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li>My team and I created a Smart Mirror in 24 hours at the University Buffalo Hackathon this fall! Out of 250+ hackers, my team took <b>3rd place</b>!</li>
-            <li>We used a one-way piece of glass mounted to a standard computer monitor and a Raspberry Pi to power it. The glass would act as a perfect mirror until the monitor light shined through to display the desired content. Yahoo's Weather API allowed us to grab weather information for any location. We also implemented a live twitter feed to display the users timeline along with a stock ticker. The idea behind this was people constantly want to be connected to the world around them and this was a creative approach to that concept.</li>
-            <li>My involvement on the project was mainly the design of the interface along with the HTML, CSS and JavaScript coding.</li>
-          </ul>
-        </div>
-        <br>
+        <a class="anchor" id="thumbtrack"></a>
+        <div class="row lead">
 
-        <div class="col-md-6 portfolio-item">
-          <center><img src="img/mirror.png" id="mirror" class="img-responsive" style="max-width:380px; width:100%;"/></center>
-          <br>
-          <center><img src="img/team.jpg" id="team" class="img-responsive" style="max-width:380px; width:100%;"/></center>
-        </div>
-      </div>
+            <div class="col-md-12" id="desktopcourse">
+                <img src="img/thumbname.png" style="max-width:400px; width: 100%" />
+                <!-- <h1>Thumb Track <img src="img/applogo.png" style="max-width:85px; width:100%; padding-left:20px;"/></h1> -->
+                <hr class="green">
+            </div>
+            <div class="col-md-12" id="mobilecourse">
+                <br>
+                <img src="img/thumbname.png" class="center-block" style="max-width:400px; width:100%;" />
+                <hr class="green">
+            </div>
 
-      <a class="anchor" id="thumbtrack"></a>
-      <div class="row lead">
-        
-        <div class="col-md-12" id="desktopcourse">
-            <img src="img/thumbname.png" style="max-width:400px; width: 100%" />
-            <!-- <h1>Thumb Track <img src="img/applogo.png" style="max-width:85px; width:100%; padding-left:20px;"/></h1> -->
-            <hr class="green">
-        </div>
-        <div class="col-md-12" id="mobilecourse">
+            <div class="col-md-6">
+                <ul>
+                    <li>This app was created at the 2014 UB Hackathon where the time constraint was 36 hours</li>
+                    <li>Using Android Studios and Eclipse, my team developed an android app that tracks the distance the user scrolls on their phone. We also have it track your swipe velocity in pixels per second. Features we would like to add would be to also measure distance in feet and miles as well as offer more statistics. We thought this would be an interesting statistic people probably dont think about too often.</li>
+                    <li>Having it fully function required a jailbroken phone due to access to touch points on the touch screen. There is now an app for jailbroken iPhones that has the same functionality.</li>
+                </ul>
+            </div>
             <br>
-            <img src="img/thumbname.png" class="center-block" style="max-width:400px; width:100%;"/>
-            <hr class="green">
+
+            <div class="col-md-6 portfolio-item">
+                <center><img src="img/thumbtrack.png" id="mirror" class="img-responsive" style="max-width:280px; width:100%;" />
+                </center>
+            </div>
+
         </div>
 
-        <div class="col-md-6">
-          <ul>
-            <li>This app was created at the 2014 UB Hackathon where the time constraint was 36 hours</li>
-            <li>Using Android Studios and Eclipse, my team developed an android app that tracks the distance the user scrolls on their phone. We also have it track your swipe velocity in pixels per second. Features we would like to add would be to also measure distance in feet and miles as well as offer more statistics. We thought this would be an interesting statistic people probably dont think about too often.</li>
-            <li>Having it fully function required a jailbroken phone due to access to touch points on the touch screen. There is now an app for jailbroken iPhones that has the same functionality.</li>
-          </ul>
-        </div>
-        <br>
+        <a class="anchor" id="MK"></a>
+        <div class="row lead">
+            <div class="col-md-12" id="desktopcourse">
+                <h1>Michael Kulbacki.com</h1>
+                <hr>
+            </div>
+            <div class="col-md-12 text-center" id="mobilecourse">
+                <h1>Michael Kulbacki.com</h1>
+                <hr>
+            </div>
 
-        <div class="col-md-6 portfolio-item">
-          <center><img src="img/thumbtrack.png" id="mirror" class="img-responsive" style="max-width:280px; width:100%;"/></center>
-        </div>
-
-      </div>
-
-      <a class="anchor" id="MK"></a>
-      <div class="row lead">
-        <div class="col-md-12" id="desktopcourse">
-          <h1>Michael Kulbacki.com</h1>
-          <hr>
-        </div>
-        <div class="col-md-12 text-center" id="mobilecourse">
-          <h1>Michael Kulbacki.com</h1>
-          <hr>
+            <div class="col-md-12 lead">
+                <ul>
+                    <li>In January of 2015, my first project for my web development course was to create a personal website. This was a four page very simple website. The site has grown and advanced overtime as I acquired new skills and ideas. My first website I hacked together from scratch without any frameworks and I have finally moved on from that.</li>
+                    <li>The website you see now is designed with the latest version of Bootstrap along with JavaScipt animations and scroll features. There are other functions to implement, but I truly enjoy web design and hope you enjoy the look and feel of my website.</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="col-md-12 lead">
-          <ul>
-            <li>In January of 2015, my first project for my web development course was to create a personal website. This was a four page very simple website. The site has grown and advanced overtime as I acquired new skills and ideas.  My first website I hacked together from scratch without any frameworks and I have finally moved on from that.</li>
-            <li>The website you see now is designed with the latest version of Bootstrap along with JavaScipt animations and scroll features.  There are other functions to implement, but I truly enjoy web design and hope you enjoy the look and feel of my website.</li>
-          </ul>
-        </div>
-      </div>
 
-      
-      <div class="row lead">
-        <div class="col-md-12" id="desktopcourse">
-          <h1>UBACM Website</h1>
-          <hr>
-        </div>
-        <div class="col-md-12 text-center" id="mobilecourse">
-          <h1>UBACM Website</h1>
-          <hr>
-        </div>
+        <div class="row lead">
+            <div class="col-md-12" id="desktopcourse">
+                <h1>UBACM Website</h1>
+                <hr>
+            </div>
+            <div class="col-md-12 text-center" id="mobilecourse">
+                <h1>UBACM Website</h1>
+                <hr>
+            </div>
 
-        <div class="col-md-12 lead">
-          <ul>
-            <li>Aiding in the development of the UB Association for Computing Machinery webiste, view the progress on the new website <a href="http://ubacm-website.herokuapp.com/">here</a> and the current one <a href="http://ubacm.org/">here</a>.</li>
-          </ul>
+            <div class="col-md-12 lead">
+                <ul>
+                    <li>Aiding in the development of the UB Association for Computing Machinery webiste, view the progress on the new website <a href="http://ubacm-website.herokuapp.com/">here</a> and the current one <a href="http://ubacm.org/">here</a>.</li>
+                </ul>
+            </div>
         </div>
     </div>
-      </div>
-    </div>
-</div>
     <br>
 
-<section class="container-fluid" id="socialsection">
-    <div class="row col-md-offset-3" id="social">
-        <!--fontawesome icons-->
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new"><i class="fa fa-flickr fa-2x"></i></a>
+    <section class="container-fluid" id="socialsection">
+        <div class="row col-md-offset-3" id="social">
+            <!--fontawesome icons-->
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new"><i class="fa fa-flickr fa-2x"></i></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://www.facebook.com/mike.d.kulbacki" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </div>
+            <div class=" col-xs-3 col-sm-3  col-md-2 text-center">
+                <a href="https://www.instagram.com/michaelbacki/" target="_new"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-2 text-center">
+                <a href="https://twitter.com/michaelbacki" target="_new"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://www.facebook.com/mike.d.kulbacki" target="_new"><i class="fa fa-facebook-square fa-2x"></i></a>
-        </div>
-        <div class=" col-xs-3 col-sm-3  col-md-2 text-center">
-            <a href="https://www.instagram.com/michaelbacki/" target="_new"><i class="fa fa-instagram fa-2x"></i></a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-2 text-center">
-            <a href="https://twitter.com/michaelbacki" target="_new"><i class="fa fa-twitter-square fa-2x"></i></a>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Footer -->
-<a class="anchor" id="contact"></a>
-<footer id="footer">
-    <div class="container">
-        <div class="row col-md-offset-2">
-            <div class="col-xs-12 col-md-4 column text-center contentBR">
-                <img src="img/footMK.png" style=" max-width:100px;"/>
-                <h4><strong>Michael Kulbacki</strong></h4>
-                <h5>Conatct me at</h5>
-                <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff; padding-left:5px;"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
-                <hr class="mobileHR">
-            </div>
-            
-            <div class="col-xs-6 col-md-3 footerLinks" style="padding-left:50px;">
-                <ul class="list-unstyled nav-list">
-                    <a href="http://michaelkulbacki.github.io/"><li class="paddlist" >Home</li></a>
-                    <a href="http://michaelkulbacki.github.io/about.html"><li class="paddlist" >About</li></a>
-                    <a href="http://michaelkulbacki.github.io/projects.html"><li class="paddlist" >CS Projects</li></a>
-                    <a href="http://michaelkulbacki.github.io/work.html"><li class="paddlist" >Work Experience</li></a>
-                    <a href="http://michaelkulbacki.github.io/courses.html"><li class="paddlist" >Courses</li></a>
-                </ul>
-            </div>
+    <a class="anchor" id="contact"></a>
+    <footer id="footer">
+        <div class="container">
+            <div class="row col-md-offset-2">
+                <div class="col-xs-12 col-md-4 column text-center contentBR">
+                    <img src="img/footMK.png" style=" max-width:100px;" />
+                    <h4><strong>Michael Kulbacki</strong></h4>
+                    <h5>Conatct me at</h5>
+                    <i class="fa fa-envelope-o fa-fw"></i><span style="color:#9900ff; padding-left:5px;"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
+                    <hr class="mobileHR">
+                </div>
 
-            <div class="col-xs-6 col-md-4 block footerLinks">
-                <ul class="list-unstyled nav-list">
-                    <li class="paddlist">Portfolio</li>
-                    <a href="http://michaelkulbacki.github.io/landscapes.html"><li class="paddlist" >Landscapes</li></a>
-                    <a href="http://michaelkulbacki.github.io/portraits.html"><li class="paddlist" >Portraits</li></a>
-                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf"><li class="paddlist" >Resume</li></a>
-                    <a href="http://michaelkulbacki.github.io/contact.html"><li class="paddlist" >Contact</li></a>
-                </ul>
-            </div>
+                <div class="col-xs-6 col-md-3 footerLinks" style="padding-left:50px;">
+                    <ul class="list-unstyled nav-list">
+                        <a href="http://michaelkulbacki.github.io/">
+                            <li class="paddlist">Home</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/about.html">
+                            <li class="paddlist">About</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/projects.html">
+                            <li class="paddlist">CS Projects</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/work.html">
+                            <li class="paddlist">Work Experience</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/courses.html">
+                            <li class="paddlist">Courses</li>
+                        </a>
+                    </ul>
+                </div>
 
+                <div class="col-xs-6 col-md-4 block footerLinks">
+                    <ul class="list-unstyled nav-list">
+                        <li class="paddlist">Portfolio</li>
+                        <a href="http://michaelkulbacki.github.io/landscapes.html">
+                            <li class="paddlist">Landscapes</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/portraits.html">
+                            <li class="paddlist">Portraits</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf">
+                            <li class="paddlist">Resume</li>
+                        </a>
+                        <a href="http://michaelkulbacki.github.io/contact.html">
+                            <li class="paddlist">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+            <!--/row-->
+            <br>
+            <br>
+            <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.6</p>
+            <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
         </div>
-        <!--/row-->
-        <br>
-        <br>
-        <p class="text-center" style="color:#9900ff;">Last Updated: May 2016 | Version 2.9.5</p>
-        <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
-    </div>
-</footer>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -275,53 +298,59 @@
     <!-- Custom Theme JavaScript -->
 
     <!-- main jQuery -->
-        <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
-        <!-- jquery.nav -->
-        <script src="js/effect/jquery.nav.js"></script>
-        <!-- Portfolio Filtering -->
-        <script src="js/effect/jquery.mixitup.min.js"></script>
-        <!-- Fancybox -->
-        <script src="js/effect/jquery.fancybox.pack.js"></script>
-        <!-- Parallax sections -->
-        <script src="js/effect/jquery.parallax-1.1.3.js"></script>
-        <!-- jQuery Appear -->
-        <script src="js/effect/jquery.appear.js"></script>
-        <!-- countTo -->
-        <script src="js/effect/jquery-countTo.js"></script>
-        <!-- owl carousel -->
-        <script src="js/effect/owl.carousel.min.js"></script>
-        <!-- WOW script -->
-        <script src="js/effect/wow.min.js"></script>
-        <!-- theme custom scripts -->
-        <script src="js/effect/main.js"></script>
+    <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
+    <!-- jquery.nav -->
+    <script src="js/effect/jquery.nav.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="js/effect/jquery.mixitup.min.js"></script>
+    <!-- Fancybox -->
+    <script src="js/effect/jquery.fancybox.pack.js"></script>
+    <!-- Parallax sections -->
+    <script src="js/effect/jquery.parallax-1.1.3.js"></script>
+    <!-- jQuery Appear -->
+    <script src="js/effect/jquery.appear.js"></script>
+    <!-- countTo -->
+    <script src="js/effect/jquery-countTo.js"></script>
+    <!-- owl carousel -->
+    <script src="js/effect/owl.carousel.min.js"></script>
+    <!-- WOW script -->
+    <script src="js/effect/wow.min.js"></script>
+    <!-- theme custom scripts -->
+    <script src="js/effect/main.js"></script>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-65357606-2', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-65357606-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-</script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-<script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if(target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
-            }
+            });
         });
-    });
     </script>
 
 </body>
