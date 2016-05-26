@@ -30,7 +30,7 @@ body {
 }
 
 .contentBR {
-    border-right: 1px solid #a7a7a7;
+    border-right: 1px solid white;
 }
 
 .contentBL {
@@ -41,15 +41,18 @@ body {
     border-right: 1px solid #9900ff;
 }
 
+.mailLink a { color:#a7a7a7; text-decoration: none;}
+.mailLink a:hover { color:white; text-decoration: none; transition: all 0.2s ease-in-out; }
+
 .footerLinks a{
     text-decoration: none;
-    color: black;
+    color: #a7a7a7;
 }
 
 .footerLinks a:hover {
     text-decoration: none;
     font-weight: bold ;
-    color: #9900ff;
+    color: white;
     transition: all 0.2s ease-in-out; 
 
 }
@@ -210,6 +213,10 @@ hr.courses {
     max-width: 170px;
 }
 
+hr.footer {
+    max-width: 500px;
+}
+
 hr.projects {
     max-width:330px;
 }
@@ -344,13 +351,14 @@ form .btn-lg:hover {
     display: block;
 }
 #socialsection i {
-    color: white;
+    color: #a7a7a7;
     text-decoration: none;
 }
 #socialsection i:hover {
-    color: #9900ff;
+    color: white;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 /* Callout the pic with text kinda thing*/
@@ -421,10 +429,10 @@ form .btn-lg:hover {
     .contentBL { border-left: none;}
     .contentBR { border-right: none;}
     #desktopcourse {display: none;}
+    #desktopfoot {padding-left: 15px;}
     #footer {
+        background-color: #262626;
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
@@ -432,17 +440,17 @@ form .btn-lg:hover {
     #team {display: none;}
     #mobilecourse {display: none;}
     .mobileHR{display: none;}
+    #desktopfoot {padding-left: 50px;}
     #footer {
+        background-color: #262626;
         text-align: left;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
 /* Footer */
 
 footer {
-    padding: 20px 0 20px 0;
+    padding: 25px 0 5px 0;
 }
 
 /* Carousel*/
