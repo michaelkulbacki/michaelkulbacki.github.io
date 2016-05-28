@@ -217,7 +217,7 @@ body {
 .services hr {
     border-top: 1px solid white;
 }
-.resume, .courses hr {
+.courses hr {
     border-top: 1px solid white;
 }
 
@@ -393,6 +393,22 @@ form .btn-lg:hover {
       rgba(0, 0, 0, 0.5)
     ),
     url(../img/davis.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.divbuttons {
+    display: table;
+    height: 300px;
+    color: #fff;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/davis.jpg) no-repeat center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
