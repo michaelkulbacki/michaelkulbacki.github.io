@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="author" content="Michael Kulbacki">
@@ -17,17 +17,24 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
-    <script type="text/javascript" src="shadow/shadowbox.js"></script>
-    <script type="text/javascript">
-        Shadowbox.init();
-    </script>
 
+    <link rel='stylesheet' href='https://flickrit.com/unitegallery/css/unite-gallery.css' type='text/css' />
+    <style type="text/css">
+        #gallery {
+            margin: 0 auto;
+        }
+        .dropdown-content {
+            width: 200px !important;
+        }
+        #gallery img:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,8 +50,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
-            <a class="navbar-brand" id="name"><span style="font-family:Roboto"><strong>Michael Kulbacki</strong></span></a>
+            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" />
+            </a>
+            <a class="navbar-brand" id="name"><span style="font-family: Roboto;"><strong>Michael Kulbacki</strong></span></a>
             <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
@@ -96,7 +104,6 @@
                         <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
                     </li>
                 </ul>
-
             </div>
             <!--/.nav-collapse -->
         </div>
@@ -118,283 +125,35 @@
         <!-- /.container -->
     </section>
 
-    <!--===================DESKTOP=====================================-->
+
+    <!-- src is the thumbnail, data-image is enlarged photo -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 block-center landscape">
-                <div id="content">
-                    <div id="page">
-                        <div id="left" class="wow fadeInLeft" data-wow-delay="0.2">
-                            <div class="horz">
-                                <a href=" landscape/clockk.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo"><img src="landscape/clock.jpg" />
-                                </a>
-                            </div>
-                            <div class="vl">
-                                <a href=" landscape/moonn.jpg" rel="shadowbox[gallery]" title="Blood Moon 2015"><img src="landscape/moon.jpg" />
-                                </a>
-                            </div>
-                            <div class="vr">
-                                <a href=" landscape/stonee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stone.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/mossyy.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/mossy.jpg" />
-                                </a>
-                            </div>
-                            <div class="vl">
-                                <a href=" landscape/tallfalll.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/tallfall.jpg" />
-                                </a>
-                            </div>
-                            <div class="vr">
-                                <a href=" landscape/streamm.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/stream.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/afiree.jpg" rel="shadowbox[gallery]" title="Crystal Beach Fireworks (combined)"><img src="landscape/afire.jpg" />
-                                </a>
-                            </div>
-                            <div class="vl">
-                                <a href=" landscape/firee.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/fire.jpg" />
-                                </a>
-                            </div>
-                            <div class="vr">
-                                <a href=" landscape/trii.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/tri.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/bigg.jpg" rel="shadowbox[gallery]" title="4th of July"><img src="landscape/big.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/beachh.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/beach.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/nigh.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape"><img src="landscape/night.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/fal.jpg" rel="shadowbox[gallery]" title="Fall in Buffalo"><img src="landscape/fall.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/reflec.jpg" rel="shadowbox[gallery]" title="Greiner Hall, UB"><img src="landscape/reflect.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/famm.jpg" rel="shadowbox[gallery]" title="Family in Clearwater"><img src="landscape/fam.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/tree.jpg" rel="shadowbox[gallery]" title="Winter on UB Campus"><img src="landscape/trees.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/leaff.jpg" rel="shadowbox[gallery]" title="Fall Leaves"><img src="landscape/leaf.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/davis.jpg" rel="shadowbox[gallery]" title="University at Buffalo"><img src="landscape/dave.jpg" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div id="right" class="wow fadeInRight" data-wow-delay="0.2">
-                            <div class="horz">
-                                <a href=" landscape/onebuff.jpg" rel="shadowbox[gallery]" title="Downtown Buffalo"><img src="landscape/onebuf.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/canall.jpg" rel="shadowbox[gallery]" title="Canalside Buffalo"><img src="landscape/canal.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/acrosss.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/across.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/leftt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/left.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/rightt.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/right.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/bridg.jpg" rel="shadowbox[gallery]" title="Peace Bridge"><img src="landscape/bridge.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/ligh.jpg" rel="shadowbox[gallery]" title="Highway Light Trail"><img src="landscape/light.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/dayy.jpg" rel="shadowbox[gallery]" title="Clearwater Beach, Florida"><img src="landscape/day.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/peacee.jpg" rel="shadowbox[gallery]" title="Peace Bridge"><img src="landscape/peace.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/panoo.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/pano.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/sunsett.jpg" rel="shadowbox[gallery]" title="Clearwater Beach Sunset"><img src="landscape/sunset.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/closee.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/close.jpg" />
-                                </a>
-                            </div>
-                            <div class="vl">
-                                <a href=" landscape/sunn.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/sun.jpg" />
-                                </a>
-                            </div>
-                            <div class="vr">
-                                <a href=" landscape/walkk.jpg" rel="shadowbox[gallery]" title="Crystal Beach, Canada"><img src="landscape/walk.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/waterfal.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/waterfall.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/movee.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/move.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/forestt.jpg" rel="shadowbox[gallery]" title="Akron Falls, NY"><img src="landscape/forest.jpg" />
-                                </a>
-                            </div>
-                            <div class="horz">
-                                <a href=" landscape/clearr.jpg" rel="shadowbox[gallery]" title="Clearwater Nightscape (Other view)"><img src="landscape/clear.jpg" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="gallery" style="display:none;">
+                <img alt="" src="https://c6.staticflickr.com/8/7467/26871492101_25853d0518_z.jpg" data-image="https://c6.staticflickr.com/8/7467/26871492101_7d18341fa9_h.jpg">
+                <img alt="" src="https://c6.staticflickr.com/8/7020/26871494181_0b8bdbe238_z.jpg" data-image="https://c6.staticflickr.com/8/7020/26871494181_1deb3b5773_h.jpg">
+                <img alt="" src="https://c7.staticflickr.com/8/7587/26845129582_7342a5df7f_z.jpg" data-image="https://c7.staticflickr.com/8/7587/26845129582_26c623f106_h.jpg">
+                <img alt="" src="https://c7.staticflickr.com/2/1661/24744820142_dee2b1e81a_z.jpg" data-image="https://c7.staticflickr.com/2/1661/24744820142_10bcd718a2_k.jpg">
+                <img alt="" src="https://c3.staticflickr.com/2/1702/23969512874_8d5ea07e11_z.jpg" data-image="https://c3.staticflickr.com/2/1702/23969512874_0f32454df0_h.jpg">
+                <img alt="" src="https://c8.staticflickr.com/2/1622/24597705815_397d97b610_z.jpg" data-image="https://c8.staticflickr.com/2/1622/24597705815_d99fc2ebb9_h.jpg">
+                <img alt="" src="https://c5.staticflickr.com/2/1511/23969570364_39502058aa_z.jpg" data-image="https://c5.staticflickr.com/2/1511/23969570364_a1ed08f604_h.jpg">
+                <img alt="" src="https://c8.staticflickr.com/2/1712/23970786783_7172e5b1c4_z.jpg"  data-image="https://c8.staticflickr.com/2/1712/23970786783_23e7d6eb36_h.jpg">
+                <img alt="" src="https://c3.staticflickr.com/2/1603/24562436186_c1fbe917cf_z.jpg" data-image="https://c3.staticflickr.com/2/1603/24562436186_b01c414871_h.jpg">
+                <img alt="" src="https://c6.staticflickr.com/2/1688/24229815789_0c5f46ed52_z.jpg" data-image="https://c6.staticflickr.com/2/1688/24229815789_ea950e2b88_h.jpg">
+                <img alt="" src="https://c2.staticflickr.com/2/1618/24220768889_63957a6154_z.jpg" data-image="https://c2.staticflickr.com/2/1618/24220768889_3649e23497_h.jpg">
+                <img alt="" src="https://c3.staticflickr.com/2/1696/23960433594_f01e084984_z.jpg" data-image="https://c3.staticflickr.com/2/1696/23960433594_170f399c54_h.jpg"> 
+                <img alt="" src="https://c1.staticflickr.com/2/1659/24443067312_d77943e56c_z.jpg" data-image="https://c1.staticflickr.com/2/1659/24443067312_3e730b7956_k.jpg">
+                <img alt="" src="https://c2.staticflickr.com/2/1452/24468873441_1b6d2be2e9_z.jpg" data-image="https://c2.staticflickr.com/2/1452/24468873441_ed47b6f91d_k.jpg">
+                <img alt="" src="https://c5.staticflickr.com/6/5821/23074632604_83c0598b6a_z.jpg" data-image="https://c5.staticflickr.com/6/5821/23074632604_7f28ac0d6b_h.jpg">
             </div>
         </div>
     </div>
-
-    <!--===================MOBILE======================================-->
-
-    <center>
-        <div id="mobilelayout">
-            <div id="mobilepage" class="wow fadeInDown" data-wow-delay="0.2s">
-                <div class="mobilespacing">
-                    <img src="landscape/clockk.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/onebuff.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/moonn.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/stonee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/mossyy.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/tallfalll.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/streamm.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/acrosss.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/canall.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/afiree.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/firee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/trii.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/bigg.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/leftt.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/rightt.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/bridg.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/ligh.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/dayy.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/peacee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/beachh.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/nigh.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/fal.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/reflec.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/davis.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/famm.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/tree.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/leaff.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/clearr.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/panoo.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/sunsett.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/closee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/sunn.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/walkk.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/waterfal.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/movee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="landscape/forestt.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-            </div>
+    <br>
+    <div class ="container">
+        <div class="row text-center" style="padding:15px;">
+            <h4>Working on the new gallery layout, more images to be uploaded soon!</h4>
         </div>
-    </center>
+    </div>
 
     <section class="container-fluid" id="socialsection">
         <div class="row" id="social">
@@ -418,7 +177,7 @@
                     <h4 style="font-family:Roboto"><strong>Michael Kulbacki</strong></h4>
                     <h5>Conatct me at:</h5>
                     <i class="fa fa-envelope fa-fw" style="color: white;"></i>
-                        <span style="padding-left:5px;" class="mailLink"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
+                    <span style="padding-left:5px;" class="mailLink"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
                     <hr class="mobileHR footer" style="border-top:solid 1px white;">
                 </div>
                 <div class="col-xs-offset-1">
@@ -471,7 +230,7 @@
             <div class="col-md-12 col-xs-12" style="background-color:#1b1b1b;padding-top:10px;">
                 <p class="text-center" style="color:#a7a7a7;">Last Updated: May 2016 | Version 3.1.0</p>
                 <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2016</p>
-            </div>      
+            </div>
         </div>
     </div>
 
@@ -482,6 +241,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
+
     <!-- main jQuery -->
     <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
     <!-- jquery.nav -->
@@ -502,6 +262,30 @@
     <script src="js/effect/wow.min.js"></script>
     <!-- theme custom scripts -->
     <script src="js/effect/main.js"></script>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://flickrit.com/js/materialize.min.js"></script>
+    <script type='text/javascript' src='https://flickrit.com/unitegallery/js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='https://flickrit.com/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+    <script type="text/javascript">
+        $(function() {
+            $('select').material_select();
+            $(".dropdown-button").dropdown();
+            api = $("#gallery").unitegallery({
+                gallery_images_preload_type: "minimal",
+                gallery_autoplay: true,
+                slider_scale_mode: "fit",
+                slider_control_zoom: true,
+                gallery_play_interval: 10000,
+                gallery_theme: "tiles"
+            });
+            api.resize($('.container').width(), $('.container').height());
+
+            $("#skin").change(function() {
+                var skin = $(this).val();
+            });
+        });
+    </script>
 
     <script>
         (function(i, s, o, g, r, a, m) {

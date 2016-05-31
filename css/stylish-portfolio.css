@@ -460,7 +460,7 @@ form .btn-lg:hover {
 }
 
 @media(max-width: 994px){
-    #name {display: none;}
+    #name {margin-left: -20px;}
     .contentBL { border-left: none;}
     .contentBR { border-right: none;}
     #desktopcourse {display: none;}
