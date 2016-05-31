@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="author" content="Michael Kulbacki">
@@ -16,19 +16,26 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="css/landscape.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
-    <script type="text/javascript" src="shadow/shadowbox.js"></script>
-    <script type="text/javascript">
-        Shadowbox.init();
-    </script>
-
+    
+    <link rel='stylesheet' href='https://flickrit.com/unitegallery/css/unite-gallery.css' type='text/css' />
+    <style type="text/css">
+        #gallery {
+            margin: 0 auto;
+        }
+        .dropdown-content {
+            width: 200px !important;
+        }
+        img:hover {
+            background-color: rgba(0,0,0,0.7);
+        }
+    </style>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +52,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
-            <a class="navbar-brand" id="name"><span style="font-family:Roboto"><strong>Michael Kulbacki</strong></span></a>
+            <a class="navbar-brand" id="name"><span style="font-family: Roboto;"><strong>Michael Kulbacki</strong></span></a>
             <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
@@ -110,7 +117,7 @@
                 <div class="col-lg-12 text-center wow fadeInDown">
                     <br>
                     <h1>Portraits</h1>
-                    <hr class="medium">
+                    <hr class="small">
                 </div>
             </div>
             <!-- /.row -->
@@ -118,145 +125,50 @@
         <!-- /.container -->
     </section>
 
-    <!--===================DESKTOP=====================================-->
+    <!-- src is the thumbnail, data-image is enlarged photo -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 block-center portrait">
-                <div id="content">
-                    <div id="page">
-                        <div class="L">
-                            <a href=" portrait/gem1B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem1Bs.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/gem2B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem2Bs.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/gem3B.jpg" rel="shadowbox[gallery1]"><img src="portrait/gem3Bs.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/mikee.jpg" rel="shadowbox[gallery1]" title="Akron Falls, NY (Self Portrait)"><img src="portrait/mike.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/tyy.jpg" rel="shadowbox[gallery1]" title=""><img src="portrait/ty.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/nickk.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/nick.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/redd.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/red.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/uberr.jpg" rel="shadowbox[gallery1]" title="University at Buffalo Equity Research Club"><img src="portrait/uber.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/tenn.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/ten.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/ell.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/el.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/eightt.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/eight.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/ninee.jpg" rel="shadowbox[gallery1]" title="Deleware Park, Downtown Buffalo"><img src="portrait/nine.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/fourr.jpg" rel="shadowbox[gallery1]"><img src="portrait/four.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/fivee.jpg" rel="shadowbox[gallery1]"><img src="portrait/five.jpg" />
-                            </a>
-                        </div>
-                        <div class="L">
-                            <a href=" portrait/onee.jpg" rel="shadowbox[gallery1]"><img src="portrait/one.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/twoo.jpg" rel="shadowbox[gallery1]"><img src="portrait/two.jpg" />
-                            </a>
-                        </div>
-                        <div class="R">
-                            <a href=" portrait/threee.jpg" rel="shadowbox[gallery1]"><img src="portrait/three.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+            <div id="gallery" style="display:none;">
+ 
+        <img alt="" src="https://c4.staticflickr.com/8/7741/26993000091_59b28b77c1_z.jpg"
+        data-image="https://c4.staticflickr.com/8/7741/26993000091_9c30ab39d6_k.jpg">
+        <img alt="" src="https://c6.staticflickr.com/8/7147/27061050965_44d9a49c88_z.jpg"
+        data-image="https://c6.staticflickr.com/8/7147/27061050965_d6d45b35f0_k.jpg">
+        <img alt="" src="https://c7.staticflickr.com/2/1596/24524977166_a921215624_z.jpg"
+        data-image="https://c7.staticflickr.com/2/1596/24524977166_9dab40f1e8_k.jpg">
+        <img alt="" src="https://c8.staticflickr.com/8/7447/27375918135_cef092d756_z.jpg"
+        data-image="https://c8.staticflickr.com/8/7447/27375918135_d18e401a72_k.jpg">
+        <img alt="" src="https://c7.staticflickr.com/8/7551/27342050926_b4a6cd7f39_z.jpg"
+        data-image="https://c7.staticflickr.com/8/7551/27342050926_d03e4b3bfa_k.jpg">
+        <img alt="" src="https://c2.staticflickr.com/8/7185/27375911185_688ef12848_z.jpg"
+        data-image="https://c2.staticflickr.com/8/7185/27375911185_85e6bb35c3_k.jpg">
+        <img alt="" src="https://c4.staticflickr.com/8/7537/27305449811_236df77f1b_z.jpg"
+        data-image="https://c4.staticflickr.com/8/7537/27305449811_116fe9c739_k.jpg">
+        <img alt="" src="https://c5.staticflickr.com/1/775/22715562468_964e1121b8_z.jpg"
+        data-image="https://c5.staticflickr.com/1/775/22715562468_5335cb486d_k.jpg">
+        <img alt="" src="https://c8.staticflickr.com/8/7225/27305450311_c1db86a17d_z.jpg"
+        data-image="https://c8.staticflickr.com/8/7225/27305450311_dec4fe0bb1_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/6/5785/22226237519_2e784778bc_z.jpg"
+        data-image="https://c8.staticflickr.com/6/5785/22226237519_0f87d21ea3_k.jpg">
+        <img alt="" src="https://c2.staticflickr.com/6/5760/22210891889_7b7fd11ffb_z.jpg"
+        data-image="https://c2.staticflickr.com/6/5760/22210891889_1e6ac464cd_k.jpg">
+        <img alt="" src="https://c1.staticflickr.com/9/8813/16951859128_9a42fb69ec_z.jpg"
+        data-image="https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg">
+        <img alt="" src="https://c3.staticflickr.com/8/7617/16952088530_f14770a033_z.jpg"
+        data-image="https://c3.staticflickr.com/8/7617/16952088530_ea2d8b498f_h.jpg">
+        <img alt="" src="https://c1.staticflickr.com/8/7657/16952081360_bb0690cafa_z.jpg"
+        data-image="https://c1.staticflickr.com/8/7657/16952081360_fabe520a7f_k.jpg">
+        <img alt="" src="https://c5.staticflickr.com/8/7544/15528416508_40f3a5fab0_z.jpg"
+        data-image="https://c5.staticflickr.com/8/7544/15528416508_cbc8ee7fe6_k.jpg">
+        <img alt="" src="https://c7.staticflickr.com/4/3952/15528429318_3022e03f4f_z.jpg"
+        data-image="https://c7.staticflickr.com/4/3952/15528429318_b90c3e8545_k.jpg">
+        <img alt="" src="https://c6.staticflickr.com/4/3949/15711953821_ab92888d9b_z.jpg"
+        data-image="https://c6.staticflickr.com/4/3949/15711953821_8318cc7229_k.jpg" >
+      </div>
+  </div>
+</div>
+    <br>
 
-    <!--===================MOBILE======================================-->
-
-    <center>
-        <div id="mobilelayout">
-            <div id="mobilepage">
-                <div class="mobilespacing">
-                    <img src="portrait/gem1B.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/gem2B.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/gem3B.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/mikee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/tyy.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/nickk.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/uberr.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/redd.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/ell.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/tenn.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/ninee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/eightt.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/fivee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/fourr.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/threee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/twoo.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-                <div class="mobilespacing">
-                    <img src="portrait/onee.jpg" style="max-width: 470px; width:100%;" />
-                </div>
-            </div>
-        </div>
-    </center>
 
     <section class="container-fluid" id="socialsection">
         <div class="row" id="social">
@@ -344,6 +256,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
+
     <!-- main jQuery -->
     <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
     <!-- jquery.nav -->
@@ -365,6 +278,28 @@
     <!-- theme custom scripts -->
     <script src="js/effect/main.js"></script>
 
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://flickrit.com/js/materialize.min.js"></script>
+    <script type='text/javascript' src='https://flickrit.com/unitegallery/js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='https://flickrit.com/unitegallery/themes/tiles/ug-theme-tiles.js'></script>      
+    <script type="text/javascript">
+        $(function(){
+        $('select').material_select();
+        $(".dropdown-button").dropdown();
+        api = $("#gallery").unitegallery({
+            gallery_images_preload_type:"minimal",
+            gallery_autoplay:true,
+            slider_scale_mode: "fit",
+            slider_control_zoom:true,
+            gallery_play_interval: 10000,
+            gallery_theme:"tiles"});
+        api.resize($('.container').width(), $('.container').height());
+
+        $( "#skin" ).change(function() {
+            var skin = $(this).val();
+        });
+    });
+    </script>
 
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -387,7 +322,6 @@
         $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                     if(target.length) {
