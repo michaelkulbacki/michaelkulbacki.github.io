@@ -63,95 +63,6 @@ body {
     transition: all 0.2s ease-in-out; 
 
 }
-/* Landscape CSS */
-    .landscape #page {
-    background-color: white;
-    width:1000px;
-    padding-bottom: 15px;
-    margin-bottom: 60px; 
-    padding-right: 20px;   
-    }
-
-    #left {
-    float: left;
-    width: 470px;
-    margin-top: 15px;
-    }
-
-    #right {
-    float: right;
-    width: 470px;
-    margin-right: 20px;
-    margin-top: 15px;
-    }
-
-    .horz {
-    margin-bottom: 15px;
-    height: auto;
-    }
-
-    .vl {
-    margin-bottom: 15px;
-    margin-right: 10px;
-    float: left;
-    }
-    .vr {
-    margin-bottom: 15px;
-    margin-left: 10px;
-    float: left;
-    }
-    @media screen and (min-width :1100px){
-        #mobilelayout {display:none;}
-        #content      {display: inline-block;}
-    }
-
-    /* Mobile Part */
-    #mobilepage {
-    width: 100%;
-    background-color: white;
-    display: inline-block;
-    margin-bottom: 8px;
-    padding-bottom: 10px;
-    margin-top: -10px;
-    }
-    
-    .mobilespacing {
-    display: inline-block;
-    width: 100%;
-    margin-top: 9px;
-    }
-
-    .mobilespacing:hidden {
-        display: none;
-    }
-
-    @media screen and (max-width :1100px){
-    #content    {display:none;}
-    .spacing    {display:none;}
-    #page       {display:none;}
-    #bottom     {display: none;}
-    }
-
-/* Portrait CSS  */
-    .portrait #page {
-    background-color: white;
-    width:1000px;
-    margin-bottom: 60px;  
-    margin-left: -25px;  
-    }
-
- .L {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px; 
-    float: left;
-    }
-
- .R {
-    margin-bottom: 20px;
-    padding-right: 20px;
-    float: left;
-    }
 
 /* Custom Button Styles */
 
@@ -398,15 +309,19 @@ form .btn-lg:hover {
     -o-background-size: cover;
 }
 
-.landscapebutt h1 {margin-top: 80px;}
+.landscapebutt h1 {margin-top: 70px;}
 .landscapebutt {
     color:black; 
     height:250px; 
-     transition: all 0.3s ease-in-out;
+    margin:20px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
 }
 
 .landscapebutt:hover {
-    color:white; 
+    color:white;
+    border: 2px solid black;
+    margin:20px; 
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -419,15 +334,18 @@ form .btn-lg:hover {
 }
 
 
-.portraitbutt h1 {margin-top: 80px;}
+.portraitbutt h1 {margin-top: 82px;}
 .portraitbutt {
     color:black;
     background-size: cover; 
     height:250px; 
+    margin:20px;
+    border: 2px solid black;
 }
 
 .portraitbutt:hover {
-    color:white; 
+    color:white;
+    margin:20px; 
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -442,7 +360,8 @@ form .btn-lg:hover {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding-top: 40px;
+    padding-bottom:20px;
 }
 
 .portfolio-item {
