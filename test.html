@@ -5,11 +5,11 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no">
     <meta name="description" content="Michael Kulbacki's personal webiste displaying his computer science projects and photography portfolio, come check it out!">
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="author" content="Michael Kulbacki">
-    <title>Test | Michael Kulbacki</title>
+    <title>Home | Michael Kulbacki</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,25 +17,32 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
-    
-    <link rel='stylesheet' href='https://flickrit.com/unitegallery/css/unite-gallery.css' type='text/css' />
-    <style type="text/css">
-        #gallery {
-            margin: 0 auto;
-        }
-        .dropdown-content {
-            width: 200px !important;
-        }
-        img:hover {
-            background-color: rgba(0,0,0,0.7);
-        }
-    </style>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <style>
+        .navbar-inverse {
+            background: transparent;
+            border-color: transparent;
+            box-shadow: none;
+        }
+        .navbar-inverse .navbar-toggle {
+            border-color: white;
+            background-color: transparent;
+        }
+
+        @media(max-width: 994px) {
+            .navbar-inverse ul {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+        }
+        .navbar-inverse .navbar-toggle:focus,
+        .navbar-inverse .navbar-toggle:hover {
+            background-color: transparent;
+        }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +58,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" /></a>
+            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;"/></a>
             <a class="navbar-brand" id="name"><span style="font-family: Roboto;"><strong>Michael Kulbacki</strong></span></a>
             <div class="navbar-header">
 
@@ -63,42 +70,29 @@
                 </button>
 
             </div>
+          
             <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="http://michaelkulbacki.github.io/">Home</a>
+                        <a href="#top">Home</a>
                     </li>
                     <li>
-                        <a href="http://michaelkulbacki.github.io/about.html">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="http://michaelkulbacki.github.io/projects.html">CS Projects</a>
+                        <a href="#projects">CS Projects</a>
                     </li>
                     <li>
-                        <a href="http://michaelkulbacki.github.io/work.html">Work Experience</a>
+                        <a href="#projects">Work Experience</a>
                     </li>
                     <li>
-                        <a href="http://michaelkulbacki.github.io/courses.html">Courses</a>
+                        <a href="#course">Courses</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="http://michaelkulbacki.github.io/landscapes.html">Landscapes</a>
-                            </li>
-                            <li><a href="#top">Portraits</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a>
-                            </li>
-                            <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="#resume">Resume</a>
                     </li>
                     <li>
                         <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
@@ -109,80 +103,185 @@
         </div>
     </nav>
 
-    <!-- Title -->
-    <a class="anchor" id="top"></a>
-    <section class="about" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow fadeInDown">
-                    <br>
-                    <h1>Test</h1>
-                    <hr class="small">
-                </div>
-            </div>
-            <!-- /.row -->
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center wow fadeInDown">
+            <h1 style="color:white;">Michael Kulbacki</h1>
+            <h3 style="color:white;">Computer Science Major / Photographer</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
-        <!-- /.container -->
-    </section>
+    </header>
 
     <!-- About -->
-    <section>
+    <a class="anchor" id="about"></a>
+    <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-left">
-                    <p>If you have found this page then that means you can see my live testing page!  I am currently working on a new photo gallery and testing loading times.  Disregard this page and continue back to my other content, thanks!</p>
+                <div class="col-lg-12 text-center">
+                    <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.3s">
+                        <img class="img-fluid center-block img-responsive img-circle" src="img/mike.png" style="max-width:275px;">
+                        <br>
+                    </div>
+                    <div class="col-md-6 text-center wow fadeInRight h2margin" data-wow-delay="0.2s">
+                        <h2>About</h2>
+                        <hr class="small" />
+                        <p class="lead">I am a junior Computer Science student at the University at Buffalo. I am interested in many areas of Computer Science such as Front End/ Web Development along with backend programming. I am well versed in C++, C, Java, HTML and CSS with some exposure to Python and JavaScript....</p>
+                        <a href="http://michaelkulbacki.github.io/about.html" class="btn btn-dark btn-lg">Read More</a>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
         </div>
-        <br>
         <!-- /.container -->
     </section>
 
-    <!-- src is the thumbnail, data-image is enlarged photo -->
-    <div class="container">
-        <div class="row">
-            <div id="gallery" style="display:none;">
- 
-        <img alt="" src="https://c4.staticflickr.com/8/7741/26993000091_59b28b77c1_z.jpg"
-        data-image="https://c4.staticflickr.com/8/7741/26993000091_9c30ab39d6_k.jpg">
-        <img alt="" src="https://c6.staticflickr.com/8/7147/27061050965_44d9a49c88_z.jpg"
-        data-image="https://c6.staticflickr.com/8/7147/27061050965_d6d45b35f0_k.jpg">
-        <img alt="" src="https://c7.staticflickr.com/2/1596/24524977166_a921215624_z.jpg"
-        data-image="https://c7.staticflickr.com/2/1596/24524977166_9dab40f1e8_k.jpg">
-        <img alt="" src="https://c8.staticflickr.com/8/7447/27375918135_cef092d756_z.jpg"
-        data-image="https://c8.staticflickr.com/8/7447/27375918135_d18e401a72_k.jpg">
-        <img alt="" src="https://c7.staticflickr.com/8/7551/27342050926_b4a6cd7f39_z.jpg"
-        data-image="https://c7.staticflickr.com/8/7551/27342050926_d03e4b3bfa_k.jpg">
-        <img alt="" src="https://c2.staticflickr.com/8/7185/27375911185_688ef12848_z.jpg"
-        data-image="https://c2.staticflickr.com/8/7185/27375911185_85e6bb35c3_k.jpg">
-        <img alt="" src="https://c4.staticflickr.com/8/7537/27305449811_236df77f1b_z.jpg"
-        data-image="https://c4.staticflickr.com/8/7537/27305449811_116fe9c739_k.jpg">
-        <img alt="" src="https://c5.staticflickr.com/1/775/22715562468_964e1121b8_z.jpg"
-        data-image="https://c5.staticflickr.com/1/775/22715562468_5335cb486d_k.jpg">
-        <img alt="" src="https://c8.staticflickr.com/8/7225/27305450311_c1db86a17d_z.jpg"
-        data-image="https://c8.staticflickr.com/8/7225/27305450311_dec4fe0bb1_h.jpg">
-        <img alt="" src="https://c8.staticflickr.com/6/5785/22226237519_2e784778bc_z.jpg"
-        data-image="https://c8.staticflickr.com/6/5785/22226237519_0f87d21ea3_k.jpg">
-        <img alt="" src="https://c2.staticflickr.com/6/5760/22210891889_7b7fd11ffb_z.jpg"
-        data-image="https://c2.staticflickr.com/6/5760/22210891889_1e6ac464cd_k.jpg">
-        <img alt="" src="https://c1.staticflickr.com/9/8813/16951859128_9a42fb69ec_z.jpg"
-        data-image="https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg">
-        <img alt="" src="https://c3.staticflickr.com/8/7617/16952088530_f14770a033_z.jpg"
-        data-image="https://c3.staticflickr.com/8/7617/16952088530_ea2d8b498f_h.jpg">
-        <img alt="" src="https://c1.staticflickr.com/8/7657/16952081360_bb0690cafa_z.jpg"
-        data-image="https://c1.staticflickr.com/8/7657/16952081360_fabe520a7f_k.jpg">
-        <img alt="" src="https://c5.staticflickr.com/8/7544/15528416508_40f3a5fab0_z.jpg"
-        data-image="https://c5.staticflickr.com/8/7544/15528416508_cbc8ee7fe6_k.jpg">
-        <img alt="" src="https://c7.staticflickr.com/4/3952/15528429318_3022e03f4f_z.jpg"
-        data-image="https://c7.staticflickr.com/4/3952/15528429318_b90c3e8545_k.jpg">
-        <img alt="" src="https://c6.staticflickr.com/4/3949/15711953821_ab92888d9b_z.jpg"
-        data-image="https://c6.staticflickr.com/4/3949/15711953821_8318cc7229_k.jpg" >
-      </div>
-  </div>
-</div>
-    <br>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <a class="anchor" id="projects"></a>
+    <section class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1 wow fadeInDown h2margin">
+                    <h2>Projects / Experience</h2>
+                    <hr class="medium">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-th-large fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Smart Mirror</strong>
+                                </h4>
+                                <p  id ="">A mirror that displays information through one way glass driven by a Raspberry Pi.</p>
+                                <a href="http://michaelkulbacki.github.io/projects.html#mirror" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-android fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Thumb Track</strong>
+                                </h4>
+                                <p>Developed a mobile app to track the distance the user scrolls on their phone.</p>
+                                <a href="http://michaelkulbacki.github.io/projects.html#thumbtrack" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.4s">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-camera fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>MK Photography</strong>
+                                </h4>
+                                <p>Implented a website to display my photography portfolio and computer science projects.</p>
+                                <a href="http://michaelkulbacki.github.io/projects.html#MK" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-briefcase fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Work Experience</strong>
+                                </h4>
+                                <p>Worked with GP:50 and Softrek to develop mobile apps to use in their companies.</p>
+                                <a href="http://michaelkulbacki.github.io/work.html" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
+    <!-- Courses -->
+    <a class="anchor" id="course"></a>
+    <aside class="callout">
+        <div class="text-vertical-center wow fadeIn">
+            <h1>Courses</h1>
+            <br>
+            <a href="http://michaelkulbacki.github.io/courses.html" class="btn btn-dark btn-lg">Read More</a>
+        </div>
+    </aside>
+
+    <div class="container-fluid">
+        <div class="row">
+            <a href="http://michaelkulbacki.github.io/landscapes.html" ><div class="col-md-6 col-xs-12 landscapebutt text-vertical-center">
+                <h1>Landscapes</h1>
+            </div></a>
+            <a href="http://michaelkulbacki.github.io/portraits.html" ><div class="col-md-6 col-xs-12 portraitbutt text-vertical-center">
+                <h1>Portraits</h1>
+            </div></a>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <!-- Portfolio -->
+    <!-- <a class="anchor" id="portfolio"></a>
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center wow fadeInDown h2margin">
+                    <h2>Portfolio</h2>
+                    <hr class="small">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="portfolio-item land">
+                                <a href="http://michaelkulbacki.github.io/landscapes.html">
+                                    <img class="img-portfolio img-responsive" src="img/landscapes.jpg">
+                                    <div class="carousel-caption">
+                                        <h1>Landscapes</h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="portfolio-item">
+                                <a href="http://michaelkulbacki.github.io/portraits.html">
+                                    <img class="img-portfolio img-responsive" src="img/portraits.jpg">
+                                    <div class="carousel-caption">
+                                        <h1>Portraits</h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Call to Action -->
+    <a class="anchor" id="resume"></a>
+    <aside class="resume bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown h3margin">
+                    <h3>Resume</h3>
+                    <hr class="smallW">
+                    <a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new" class="btn btn-lg btn-light">
+                        <li class="fa fa-download" style="padding-right:7px"></li>View & Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </aside>
 
     <section class="container-fluid" id="socialsection">
         <div class="row" id="social">
@@ -232,7 +331,9 @@
 
                     <div class="col-xs-4 col-md-4 block footerLinks">
                         <ul class="list-unstyled nav-list">
-                            <li class="paddlist">Portfolio</li>
+                            <a href="#portfolio">
+                                <li class="paddlist">Portfolio</li>
+                            </a>
                             <a href="http://michaelkulbacki.com/landscapes.html">
                                 <li class="paddlist">Landscapes</li>
                             </a>
@@ -292,29 +393,6 @@
     <!-- theme custom scripts -->
     <script src="js/effect/main.js"></script>
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://flickrit.com/js/materialize.min.js"></script>
-    <script type='text/javascript' src='https://flickrit.com/unitegallery/js/unitegallery.min.js'></script>
-    <script type='text/javascript' src='https://flickrit.com/unitegallery/themes/tiles/ug-theme-tiles.js'></script>      
-    <script type="text/javascript">
-        $(function(){
-        $('select').material_select();
-        $(".dropdown-button").dropdown();
-        api = $("#gallery").unitegallery({
-            gallery_images_preload_type:"minimal",
-            gallery_autoplay:true,
-            slider_scale_mode: "fit",
-            slider_control_zoom:true,
-            gallery_play_interval: 10000,
-            gallery_theme:"tiles"});
-        api.resize($('.container').width(), $('.container').height());
-
-        $( "#skin" ).change(function() {
-            var skin = $(this).val();
-        });
-    });
-    </script>
-
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -349,6 +427,35 @@
         });
     </script>
 
+    <!-- Nav Bar Color Changing -->
+    <script>
+        $(document).ready(function() {
+            var mq = window.matchMedia("(min-width: 994px)");
+            var scroll_start = 1;
+            var startchange = $('#about');
+            var offset = startchange.offset();
+            $(document).scroll(function() {
+                scroll_start = $(this).scrollTop() + 1;
+                if(scroll_start > offset.top) {
+                    $('.navbar-inverse').css('background-color', 'black');
+                    $('.navbar-inverse').css('border', 'none');
+                    $('#navMike').css('display', 'block');
+                    $('.navbar-inverse').css('box-shadow', '0 4px 4px rgba(50, 50, 50, 0.65)');
+                    $('.navbar-inverse').css('transition', 'all 0.3s ease-in-out');
+                } else {
+                    $('.navbar-inverse').css('background-color', 'transparent');
+                    $('.navbar-inverse').css('border-color', 'transparent');
+                    $('.navbar-inverse').css('box-shadow', 'none');
+
+                    if(mq.matches) {
+                        $('.navbar-inverse ul').css('background-color', 'transparent');
+                    } else {
+                        $('.navbar-inverse ul').css('background-color', 'rgba(0, 0, 0, 0.4)');
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

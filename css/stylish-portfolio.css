@@ -199,7 +199,6 @@ body {
 #socialsection {
     display: block;
     list-style: none outside;
-    margin: 25
 }
 #socialsection i {
     color: #a7a7a7;
@@ -399,20 +398,45 @@ form .btn-lg:hover {
     -o-background-size: cover;
 }
 
-.divbuttons {
-    display: table;
-    height: 300px;
-    color: #fff;
+.landscapebutt h1 {margin-top: 80px;}
+.landscapebutt {
+    color:black; 
+    height:250px; 
+     transition: all 0.3s ease-in-out;
+}
+
+.landscapebutt:hover {
+    color:white; 
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/davis.jpg) no-repeat center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    url(https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_b.jpg) no-repeat center center scroll;
+    background-size: cover; 
+    height:250px; 
+    transition: all 0.3s ease-in-out;
+}
+
+
+.portraitbutt h1 {margin-top: 80px;}
+.portraitbutt {
+    color:black;
+    background-size: cover; 
+    height:250px; 
+}
+
+.portraitbutt:hover {
+    color:white; 
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg) no-repeat center center scroll;
+    background-size: cover; 
+    height:250px; 
+    transition: all 0.3s ease-in-out;
 }
 
 /* Portfolio */
@@ -465,6 +489,7 @@ form .btn-lg:hover {
     .contentBR { border-right: none;}
     #desktopcourse {display: none;}
     #desktopfoot {padding-left: 15px;}
+    .divbuttons { width:100%; }
     #footer {
         background-color: #262626;
         text-align: center;
