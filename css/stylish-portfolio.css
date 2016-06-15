@@ -111,27 +111,16 @@ body {
     display: block;
     list-style: none outside;
 }
-#socialsection i {
-    color: #a7a7a7;
-    text-decoration: none;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, .16);
-}
-#socialsection i:hover {
-    color: white;
-    text-decoration: none;
-    transition: all 0.2s ease-in;
-    transition: all 0.2s ease-out;
-}
 
 .circlebutt {
-    background-color: #262626;
+    background-color: #666666;
     margin-left: 5px;
     margin-right: 5px;
     display: inline-block;
     border-radius: 100px;
     border: 2px solid white;
 }
-.circlebutt img {height: 35px; width: 35px;}
+.circlebutt img {height: 37px; width: 37px;}
 .circlebutt:hover {background-color: #9900ff;}
 
 /* Custom Horizontal Rule */
@@ -320,19 +309,17 @@ form .btn-lg:hover {
     -o-background-size: cover;
 }
 
-.landscapebutt h1 {margin-top: 70px;}
+.landscapebutt h1 {position: absolute;top: 50%;left:50%;transform: translate(-50%,-50%);}
 .landscapebutt {
     color:black; 
     height:250px; 
-    margin:20px;
+    background: #66ffcc;
     border: 2px solid black;
     transition: all 0.3s ease-in-out;
 }
 
 .landscapebutt:hover {
     color:white;
-    border: 2px solid black;
-    margin:20px; 
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -344,19 +331,16 @@ form .btn-lg:hover {
     transition: all 0.3s ease-in-out;
 }
 
-
-.portraitbutt h1 {margin-top: 82px;}
+.portraitbutt h1 {position: absolute;top: 50%;left:50%;transform: translate(-50%,-50%);}
 .portraitbutt {
+    background: #80dfff;
     color:black;
-    background-size: cover; 
     height:250px; 
-    margin:20px;
     border: 2px solid black;
 }
 
 .portraitbutt:hover {
-    color:white;
-    margin:20px; 
+    color: white;
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -368,11 +352,11 @@ form .btn-lg:hover {
     transition: all 0.3s ease-in-out;
 }
 
+.port {padding: 20px;}
 /* Portfolio */
-
 .portfolio {
-    padding-top: 40px;
-    padding-bottom:20px;
+    padding-top: 30px;
+    padding-bottom:40px;
 }
 
 .portfolio-item {
@@ -420,6 +404,20 @@ form .btn-lg:hover {
     #desktopcourse {display: none;}
     #desktopfoot {padding-left: 15px;}
     .divbuttons { width:100%; }
+    .landscapebutt {margin-bottom: 20px; margin-top: -35px;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+            ),
+        url(https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_b.jpg) no-repeat center center scroll;
+        background-size: cover;color:white;}
+    .portraitbutt  {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+            ),
+        url(https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg) no-repeat center center scroll;
+        background-size: cover;color:white;}
     #footer {
         background-color: #262626;
         text-align: center;
@@ -438,6 +436,10 @@ form .btn-lg:hover {
     }
 }
 
+@media(max-width: 380px){
+    .landscapebutt h1{font-size:3.5em;}
+    .portraitbutt  h1{font-size:4.0em;}
+}
 /* Footer */
 
 footer {
