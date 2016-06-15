@@ -123,6 +123,17 @@ body {
     transition: all 0.2s ease-out;
 }
 
+.circlebutt {
+    background-color: #262626;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.circlebutt img {height: 35px; width: 35px;}
+.circlebutt:hover {background-color: #9900ff;}
+
 /* Custom Horizontal Rule */
 .services hr {
     border-top: 1px solid white;
