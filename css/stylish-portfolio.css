@@ -328,6 +328,9 @@ form .btn-lg:hover {
     color:white;
     height:250px; 
     border: 2px solid white;
+    -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     transition: all 0.3s ease-in-out;
 }
 
@@ -350,6 +353,9 @@ form .btn-lg:hover {
     color: white;
     border: 2px solid white;
     height:250px; 
+    -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     transition: all 0.3s ease-in-out;
 }
 
