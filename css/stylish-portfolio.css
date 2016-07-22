@@ -309,6 +309,26 @@ form .btn-lg:hover {
     -o-background-size: cover;
 }
 
+.newImage {
+    height:50px;
+    background-color: #9900ff;
+    color: white;
+    margin-top: 20px;
+}
+.newImage:hover {
+    /*background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg) no-repeat center center scroll;
+    background-size: cover; */
+    -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
+    transition: all 0.1s ease-in-out;
+}
+
 .landscapebutt h1 {position: absolute;top: 50%;left:50%;transform: translate(-50%,-50%);}
 .landscapebutt {
     color:white; 
@@ -320,14 +340,12 @@ form .btn-lg:hover {
     url(https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_b.jpg) no-repeat center center scroll;
     background-size: cover;
     height:250px; 
-    border: 2px solid black;
     transition: all 0.3s ease-in-out;
 }
 
 .landscapebutt:hover {
     color:white;
     height:250px; 
-    border: 2px solid white;
     -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
@@ -346,12 +364,10 @@ form .btn-lg:hover {
     ),
     url(https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg) no-repeat center center scroll;
     background-size: cover; 
-    border: 2px solid black;
 }
 
 .portraitbutt:hover {
     color: white;
-    border: 2px solid white;
     height:250px; 
     -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
