@@ -346,7 +346,7 @@ form .btn-lg:hover {
     url(https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_b.jpg) no-repeat center center scroll;
     background-size: cover;
     height:250px; 
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .landscapebutt:hover {
@@ -370,6 +370,7 @@ form .btn-lg:hover {
     ),
     url(https://c1.staticflickr.com/9/8813/16951859128_37797940bf_h.jpg) no-repeat center center scroll;
     background-size: cover; 
+    transition: all 0.2s ease-in-out;
 }
 
 .portraitbutt:hover {
@@ -378,7 +379,7 @@ form .btn-lg:hover {
     -webkit-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 58px -5px rgba(0,0,0,0.75);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .port {padding: 20px;}
