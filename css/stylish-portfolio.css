@@ -183,6 +183,10 @@ hr.mimir {
     border-top: 1px solid #669999;
 }
 
+hr.lockheed {
+  border-top: 1px solid #203876;
+}
+
 .h2margin h2 {
     margin-top: 0px;
 }
