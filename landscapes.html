@@ -3,376 +3,383 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Landscapes shot and edited by Michael Kulbacki, come check them out!">
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <meta name="author" content="Michael Kulbacki">
-    <title>Landscapes | Michael Kulbacki</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Landscapes shot and edited by Michael Kulbacki, come check them out!">
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <meta name="author" content="Michael Kulbacki">
+  <title>Landscapes | Michael Kulbacki</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link rel='stylesheet' href='Backup-JS-CSS/unite-gallery.css' type='text/css' />
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel='stylesheet' href='Backup-JS-CSS/unite-gallery.css' type='text/css' />
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-65357606-2', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <style type="text/css">
-        .ug-lightbox .ug-lightbox-arrow-left,
-        .ug-lightbox .ug-lightbox-arrow-right{
-            background-image:url('img/left.png');
-        }
-        .ug-lightbox .ug-lightbox-arrow-right{
-            background-image:url('img/right.png');
-        }
-        .ug-thumb-wrapper.ug-tile .ug-tile-icon.ug-icon-zoom{
-            background-image:url('img/zoom.png');  
-        }
-        .ug-lightbox .ug-lightbox-button-close{
-            position:absolute;
-            width:36px;
-            height:36px;
-            background-repeat:no-repeat;
-            background-image:url('img/close.png');
-            background-position:0px 0px;
-            z-index:4;
-            cursor:pointer;
-        }
-        .ug-lightbox-compact .ug-lightbox-button-close{
-            width:45px;
-            height:41px;
-            background-image:url('img/close.png');
-        }
-        #gallery {
-            margin: 0 auto;
-        }
-        .dropdown-content {
-            width: 200px !important;
-        }
-        #gallery img:hover {
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-    </style>
+    ga('create', 'UA-65357606-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <style type="text/css">
+    .ug-lightbox .ug-lightbox-arrow-left,
+    .ug-lightbox .ug-lightbox-arrow-right {
+      background-image: url('img/left.png');
+    }
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    .ug-lightbox .ug-lightbox-arrow-right {
+      background-image: url('img/right.png');
+    }
+
+    .ug-thumb-wrapper.ug-tile .ug-tile-icon.ug-icon-zoom {
+      background-image: url('img/zoom.png');
+    }
+
+    .ug-lightbox .ug-lightbox-button-close {
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      background-repeat: no-repeat;
+      background-image: url('img/close.png');
+      background-position: 0px 0px;
+      z-index: 4;
+      cursor: pointer;
+    }
+
+    .ug-lightbox-compact .ug-lightbox-button-close {
+      width: 45px;
+      height: 41px;
+      background-image: url('img/close.png');
+    }
+
+    #gallery {
+      margin: 0 auto;
+    }
+
+    .dropdown-content {
+      width: 200px !important;
+    }
+
+    #gallery img:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" />
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="http://michaelkulbacki.github.io/"><img src="img/navMK.png" style="height:36px; margin-top:-8px; margin-left: -17px;" />
             </a>
-            <a class="navbar-brand" id="name"><span style="font-family: Roboto;"><strong>Michael Kulbacki</strong></span></a>
-            <div class="navbar-header">
+      <a class="navbar-brand" id="name"><span style="font-family: Roboto;"><strong>Michael Kulbacki</strong></span></a>
+      <div class="navbar-header">
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
 
-            </div>
-            <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/">Home</a>
-                    </li>
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/projects.html">CS Projects</a>
-                    </li>
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/work.html">Work Experience</a>
-                    </li>
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/courses.html">Courses</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
+      </div>
+      <div id="navbar" class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="http://michaelkulbacki.github.io/">Home</a>
+          </li>
+          <li>
+            <a href="http://michaelkulbacki.github.io/about.html">About</a>
+          </li>
+          <li>
+            <a href="http://michaelkulbacki.github.io/projects.html">CS Projects</a>
+          </li>
+          <li>
+            <a href="http://michaelkulbacki.github.io/work.html">Work Experience</a>
+          </li>
+          <li>
+            <a href="http://michaelkulbacki.github.io/courses.html">Courses</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
                             <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#top">Landscapes</a>
-                            </li>
-                            <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
+            <ul class="dropdown-menu">
+              <li><a href="#top">Landscapes</a>
+              </li>
+              <li><a href="http://michaelkulbacki.github.io/portraits.html">Portraits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume
                             <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a>
-                            </li>
-                            <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </nav>
-
-    <!-- Title -->
-    <a class="anchor" id="top"></a>
-    <section class="about" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow fadeInDown">
-                    <br>
-                    <h1>Landscapes</h1>
-                    <hr class="medium">
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- src is the thumbnail, data-image is enlarged photo -->
-    <div class="container">
-        <div class="row">
-            <div id="gallery" style="display:none;">
-                <img alt="" src="https://c4.staticflickr.com/9/8201/29527844435_e8523a6018_z.jpg" data-image="https://c4.staticflickr.com/9/8201/29527844435_c8981d85ba_k.jpg">
-                <img alt="" src="https://c5.staticflickr.com/9/8117/29532334732_b702b0a75a_z.jpg" data-image="https://c5.staticflickr.com/9/8117/29532334732_a040f21192_k.jpg">
-                <img alt="" src="https://c7.staticflickr.com/8/7428/27957830166_0d3dc08941_z.jpg" data-image="https://c7.staticflickr.com/8/7428/27957830166_a3ccf7d6c1_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/8/7467/26871492101_d9609023ae_z.jpg" data-image="https://c6.staticflickr.com/8/7467/26871492101_25899cd0fd_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/8/7020/26871494181_0b8bdbe238_z.jpg" data-image="https://c6.staticflickr.com/8/7020/26871494181_1deb3b5773_h.jpg">
-                <img alt="" src="https://c7.staticflickr.com/8/7587/26845129582_7342a5df7f_z.jpg" data-image="https://c7.staticflickr.com/8/7587/26845129582_26c623f106_h.jpg">
-                <img alt="" src="https://c7.staticflickr.com/2/1661/24744820142_dee2b1e81a_z.jpg" data-image="https://c7.staticflickr.com/2/1661/24744820142_10bcd718a2_k.jpg">
-                <img alt="" src="https://c3.staticflickr.com/2/1702/23969512874_8d5ea07e11_z.jpg" data-image="https://c3.staticflickr.com/2/1702/23969512874_0f32454df0_h.jpg">
-                <img alt="" src="https://c8.staticflickr.com/2/1622/24597705815_397d97b610_z.jpg" data-image="https://c8.staticflickr.com/2/1622/24597705815_d99fc2ebb9_h.jpg">
-                <img alt="" src="https://c8.staticflickr.com/2/1712/23970786783_7172e5b1c4_z.jpg" data-image="https://c8.staticflickr.com/2/1712/23970786783_23e7d6eb36_h.jpg">
-                <img alt="" src="https://c3.staticflickr.com/2/1603/24562436186_c1fbe917cf_z.jpg" data-image="https://c3.staticflickr.com/2/1603/24562436186_b01c414871_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/2/1688/24229815789_0c5f46ed52_z.jpg" data-image="https://c6.staticflickr.com/2/1688/24229815789_ea950e2b88_h.jpg">
-                <img alt="" src="https://c2.staticflickr.com/2/1618/24220768889_63957a6154_z.jpg" data-image="https://c2.staticflickr.com/2/1618/24220768889_3649e23497_h.jpg">
-                <img alt="" src="https://c3.staticflickr.com/2/1696/23960433594_f01e084984_z.jpg" data-image="https://c3.staticflickr.com/2/1696/23960433594_170f399c54_h.jpg"> 
-                <img alt="" src="https://c1.staticflickr.com/2/1659/24443067312_d77943e56c_z.jpg" data-image="https://c1.staticflickr.com/2/1659/24443067312_3e730b7956_k.jpg">
-                <img alt="" src="https://c2.staticflickr.com/2/1452/24468873441_1b6d2be2e9_z.jpg" data-image="https://c2.staticflickr.com/2/1452/24468873441_ed47b6f91d_k.jpg">
-                <img alt="" src="https://c5.staticflickr.com/6/5821/23074632604_83c0598b6a_z.jpg" data-image="https://c5.staticflickr.com/6/5821/23074632604_7f28ac0d6b_h.jpg">
-                <img alt="" src="https://c4.staticflickr.com/6/5745/23703048355_7f4d0bec29_z.jpg" data-image="https://c4.staticflickr.com/6/5745/23703048355_715203d715_h.jpg">
-                <img alt="" src="https://c8.staticflickr.com/6/5738/22399099895_9809b9b5a4_z.jpg" data-image="https://c8.staticflickr.com/6/5738/22399099895_16e0f26eee_k.jpg">
-                <img alt="" src="https://c4.staticflickr.com/1/387/19901459779_4f5234823f_z.jpg"  data-image="https://c4.staticflickr.com/1/387/19901459779_426a4e4d6a_h.jpg">
-                <img alt="" src="https://c3.staticflickr.com/1/758/21763621842_352553e244_z.jpg"  data-image="https://c3.staticflickr.com/1/758/21763621842_3fe623af44_k.jpg">
-                <img alt="" src="https://c5.staticflickr.com/4/3671/19755412172_fb10dd586c_z.jpg" data-image="https://c5.staticflickr.com/4/3671/19755412172_39d94ed81e_k.jpg">
-                <img alt="" src="https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_z.jpg"  data-image="https://c1.staticflickr.com/1/446/19755587312_a68b1d368e_k.jpg">
-                <img alt="" src="https://c2.staticflickr.com/4/3680/19141896273_57f1151dc5_z.jpg" data-image="https://c2.staticflickr.com/4/3680/19141896273_a9e1a50309_h.jpg">
-                <img alt="" src="https://c1.staticflickr.com/4/3678/19574935288_6cba46002a_z.jpg" data-image="https://c1.staticflickr.com/4/3678/19574935288_451d6456ae_k.jpg">
-                <img alt="" src="https://c1.staticflickr.com/1/507/18831493704_62501b4f90_z.jpg"  data-image="https://c1.staticflickr.com/1/507/18831493704_c8b5fa02d7_h.jpg">
-                <img alt="" src="https://c1.staticflickr.com/1/524/18872624104_5e938048d5_z.jpg"  data-image="https://c1.staticflickr.com/1/524/18872624104_ca20ce4da0_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/8/7717/17947663541_bb4a71612c_z.jpg" data-image="https://c6.staticflickr.com/8/7717/17947663541_6c00acc7f4_h.jpg">
-                <img alt="" src="https://c8.staticflickr.com/9/8607/16268286775_d3a2912370_z.jpg" data-image="https://c8.staticflickr.com/9/8607/16268286775_f1b602f7e6_h.jpg">
-                <img alt="" src="https://c7.staticflickr.com/8/7476/16242350246_f9c8a4658a_z.jpg" data-image="https://c7.staticflickr.com/8/7476/16242350246_99082337f1_h.jpg">
-                <img alt="" src="https://c4.staticflickr.com/4/3884/15160319787_8de269c0d1_z.jpg" data-image="https://c4.staticflickr.com/4/3884/15160319787_af5ebb7686_h.jpg">
-                <img alt="" src="https://c7.staticflickr.com/4/3894/15160019750_f8ca39a452_z.jpg" data-image="https://c7.staticflickr.com/4/3894/15160019750_89ddd2f474_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/4/3843/14988780669_35d12535a5_z.jpg" data-image="https://c6.staticflickr.com/4/3843/14988780669_4bcb96c33f_h.jpg">
-                <img alt="" src="https://c6.staticflickr.com/6/5588/14915509837_baf01a9708_z.jpg" data-image="https://c6.staticflickr.com/6/5588/14915509837_ed56ec1fa9_k.jpg">
-                <img alt="" src="https://c8.staticflickr.com/4/3838/14775169959_41b20717ae_z.jpg" data-image="https://c8.staticflickr.com/4/3838/14775169959_f9b2d0bb0b_k.jpg">
-                <img alt="(Shot on iPhone)" src="https://c7.staticflickr.com/4/3917/14915424270_a0bcf19060_z.jpg" data-image="https://c7.staticflickr.com/4/3917/14915424270_2f78da3d0b_h.jpg">
-                <img alt="" src="https://c7.staticflickr.com/4/3928/15412856022_6ed54a2919_z.jpg" data-image="https://c7.staticflickr.com/4/3928/15412856022_c022288e88_h.jpg">
-                <img alt="" src="https://c8.staticflickr.com/3/2938/13896370815_1952b3a446_z.jpg" data-image="https://c8.staticflickr.com/3/2938/13896370815_85b77f5426_h.jpg">
-                <img alt="" src="https://c3.staticflickr.com/3/2885/11294775874_f06ff49659_z.jpg" data-image="https://c3.staticflickr.com/3/2885/11294775874_9318233960_h.jpg">
-            </div>
-        </div>
+            <ul class="dropdown-menu">
+              <li><a href="http://michaelkulbacki.github.io/docs/MichaelKulbacki.pdf" target="_new">View Here</a>
+              </li>
+              <li><a href="docs/MichaelKulbacki.pdf" download="MichaelKulbackiResume">Download Here</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://michaelkulbacki.github.io/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
     </div>
-    <br>
-    <!-- <div class ="container">
+  </nav>
+
+  <!-- Title -->
+  <a class="anchor" id="top"></a>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center wow fadeInDown">
+          <br>
+          <h1>Landscapes</h1>
+          <hr class="medium">
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- src is the thumbnail, data-image is enlarged photo -->
+  <div class="container">
+    <div class="row">
+      <div id="gallery" style="display:none;">
+        <img alt="" src="https://c4.staticflickr.com/9/8201/29527844435_e8523a6018_z.jpg" data-image="https://c4.staticflickr.com/9/8201/29527844435_c8981d85ba_k.jpg">
+        <img alt="" src="https://c5.staticflickr.com/9/8117/29532334732_b702b0a75a_z.jpg" data-image="https://c5.staticflickr.com/9/8117/29532334732_a040f21192_k.jpg">
+        <img alt="" src="https://c7.staticflickr.com/8/7428/27957830166_0d3dc08941_z.jpg" data-image="https://c7.staticflickr.com/8/7428/27957830166_a3ccf7d6c1_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/8/7467/26871492101_d9609023ae_z.jpg" data-image="https://c6.staticflickr.com/8/7467/26871492101_25899cd0fd_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/8/7020/26871494181_0b8bdbe238_z.jpg" data-image="https://c6.staticflickr.com/8/7020/26871494181_1deb3b5773_h.jpg">
+        <img alt="" src="https://c7.staticflickr.com/8/7587/26845129582_7342a5df7f_z.jpg" data-image="https://c7.staticflickr.com/8/7587/26845129582_26c623f106_h.jpg">
+        <img alt="" src="https://c7.staticflickr.com/2/1661/24744820142_dee2b1e81a_z.jpg" data-image="https://c7.staticflickr.com/2/1661/24744820142_10bcd718a2_k.jpg">
+        <img alt="" src="https://c3.staticflickr.com/2/1702/23969512874_8d5ea07e11_z.jpg" data-image="https://c3.staticflickr.com/2/1702/23969512874_0f32454df0_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/2/1622/24597705815_397d97b610_z.jpg" data-image="https://c8.staticflickr.com/2/1622/24597705815_d99fc2ebb9_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/2/1712/23970786783_7172e5b1c4_z.jpg" data-image="https://c8.staticflickr.com/2/1712/23970786783_23e7d6eb36_h.jpg">
+        <img alt="" src="https://c3.staticflickr.com/2/1603/24562436186_c1fbe917cf_z.jpg" data-image="https://c3.staticflickr.com/2/1603/24562436186_b01c414871_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/2/1688/24229815789_0c5f46ed52_z.jpg" data-image="https://c6.staticflickr.com/2/1688/24229815789_ea950e2b88_h.jpg">
+        <img alt="" src="https://c2.staticflickr.com/2/1618/24220768889_63957a6154_z.jpg" data-image="https://c2.staticflickr.com/2/1618/24220768889_3649e23497_h.jpg">
+        <img alt="" src="https://c3.staticflickr.com/2/1696/23960433594_f01e084984_z.jpg" data-image="https://c3.staticflickr.com/2/1696/23960433594_170f399c54_h.jpg">
+        <img alt="" src="https://c1.staticflickr.com/2/1659/24443067312_d77943e56c_z.jpg" data-image="https://c1.staticflickr.com/2/1659/24443067312_3e730b7956_k.jpg">
+        <img alt="" src="https://c2.staticflickr.com/2/1452/24468873441_1b6d2be2e9_z.jpg" data-image="https://c2.staticflickr.com/2/1452/24468873441_ed47b6f91d_k.jpg">
+        <img alt="" src="https://c5.staticflickr.com/6/5821/23074632604_83c0598b6a_z.jpg" data-image="https://c5.staticflickr.com/6/5821/23074632604_7f28ac0d6b_h.jpg">
+        <img alt="" src="https://c4.staticflickr.com/6/5745/23703048355_7f4d0bec29_z.jpg" data-image="https://c4.staticflickr.com/6/5745/23703048355_715203d715_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/6/5738/22399099895_9809b9b5a4_z.jpg" data-image="https://c8.staticflickr.com/6/5738/22399099895_16e0f26eee_k.jpg">
+        <img alt="" src="https://c4.staticflickr.com/1/387/19901459779_4f5234823f_z.jpg" data-image="https://c4.staticflickr.com/1/387/19901459779_426a4e4d6a_h.jpg">
+        <img alt="" src="https://c3.staticflickr.com/1/758/21763621842_352553e244_z.jpg" data-image="https://c3.staticflickr.com/1/758/21763621842_3fe623af44_k.jpg">
+        <img alt="" src="https://c5.staticflickr.com/4/3671/19755412172_fb10dd586c_z.jpg" data-image="https://c5.staticflickr.com/4/3671/19755412172_39d94ed81e_k.jpg">
+        <img alt="" src="https://c1.staticflickr.com/1/446/19755587312_68a4d1a545_z.jpg" data-image="https://c1.staticflickr.com/1/446/19755587312_a68b1d368e_k.jpg">
+        <img alt="" src="https://c2.staticflickr.com/4/3680/19141896273_57f1151dc5_z.jpg" data-image="https://c2.staticflickr.com/4/3680/19141896273_a9e1a50309_h.jpg">
+        <img alt="" src="https://c1.staticflickr.com/4/3678/19574935288_6cba46002a_z.jpg" data-image="https://c1.staticflickr.com/4/3678/19574935288_451d6456ae_k.jpg">
+        <img alt="" src="https://c1.staticflickr.com/1/507/18831493704_62501b4f90_z.jpg" data-image="https://c1.staticflickr.com/1/507/18831493704_c8b5fa02d7_h.jpg">
+        <img alt="" src="https://c1.staticflickr.com/1/524/18872624104_5e938048d5_z.jpg" data-image="https://c1.staticflickr.com/1/524/18872624104_ca20ce4da0_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/8/7717/17947663541_bb4a71612c_z.jpg" data-image="https://c6.staticflickr.com/8/7717/17947663541_6c00acc7f4_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/9/8607/16268286775_d3a2912370_z.jpg" data-image="https://c8.staticflickr.com/9/8607/16268286775_f1b602f7e6_h.jpg">
+        <img alt="" src="https://c7.staticflickr.com/8/7476/16242350246_f9c8a4658a_z.jpg" data-image="https://c7.staticflickr.com/8/7476/16242350246_99082337f1_h.jpg">
+        <img alt="" src="https://c4.staticflickr.com/4/3884/15160319787_8de269c0d1_z.jpg" data-image="https://c4.staticflickr.com/4/3884/15160319787_af5ebb7686_h.jpg">
+        <img alt="" src="https://c7.staticflickr.com/4/3894/15160019750_f8ca39a452_z.jpg" data-image="https://c7.staticflickr.com/4/3894/15160019750_89ddd2f474_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/4/3843/14988780669_35d12535a5_z.jpg" data-image="https://c6.staticflickr.com/4/3843/14988780669_4bcb96c33f_h.jpg">
+        <img alt="" src="https://c6.staticflickr.com/6/5588/14915509837_baf01a9708_z.jpg" data-image="https://c6.staticflickr.com/6/5588/14915509837_ed56ec1fa9_k.jpg">
+        <img alt="" src="https://c8.staticflickr.com/4/3838/14775169959_41b20717ae_z.jpg" data-image="https://c8.staticflickr.com/4/3838/14775169959_f9b2d0bb0b_k.jpg">
+        <img alt="(Shot on iPhone)" src="https://c7.staticflickr.com/4/3917/14915424270_a0bcf19060_z.jpg" data-image="https://c7.staticflickr.com/4/3917/14915424270_2f78da3d0b_h.jpg">
+        <img alt="" src="https://c7.staticflickr.com/4/3928/15412856022_6ed54a2919_z.jpg" data-image="https://c7.staticflickr.com/4/3928/15412856022_c022288e88_h.jpg">
+        <img alt="" src="https://c8.staticflickr.com/3/2938/13896370815_1952b3a446_z.jpg" data-image="https://c8.staticflickr.com/3/2938/13896370815_85b77f5426_h.jpg">
+        <img alt="" src="https://c3.staticflickr.com/3/2885/11294775874_f06ff49659_z.jpg" data-image="https://c3.staticflickr.com/3/2885/11294775874_9318233960_h.jpg">
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- <div class ="container">
         <div class="row text-center" style="padding:15px;">
             <h4>Working on the new gallery layout, more images to be uploaded soon!</h4>
         </div>
     </div> -->
 
-    <section class="container-fluid" id="socialsection">
-        <div class="row" id="social">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <a href="https://www.facebook.com/mike.d.kulbacki" target="_new" class="circlebutt"><img src="img/icon_f.png" /></a>
-                <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new" class="circlebutt"><img src="img/icon_flick.png" /></a>
-                <a href="https://github.com/michaelkulbacki" target="_new" class="circlebutt"><img src="img/icon_git.png" /></a>
-                <a href="https://www.instagram.com/michaelbacki/" target="_new" class="circlebutt"><img src="img/icon_ins.png" /></a>
-                <a href="https://twitter.com/michaelbacki" target="_new" class="circlebutt"><img src="img/icon_tw.png" /></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <a class="anchor" id="contact"></a>
-    <footer id="footer" class="container-fluid">
-        <div class="row">
-            <div class="col-md-offset-2">
-                <div class="col-xs-12 col-md-4 column text-center contentBR" style="color: white">
-                    <img src="img/footMK.png" style=" max-width:100px;" />
-                    <h4 style="font-family:Roboto"><strong>Michael Kulbacki</strong></h4>
-                    <h5>Conatct me at:</h5>
-                    <i class="fa fa-envelope fa-fw" style="color: white;"></i>
-                    <span style="padding-left:5px;" class="mailLink"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
-                    <hr class="mobileHR footer" style="border-top:solid 1px white;">
-                </div>
-                <div class="col-xs-offset-1">
-                    <div class="col-xs-6 col-md-3 footerLinks" id="desktopfoot">
-                        <ul class="list-unstyled nav-list">
-                            <a href="http://michaelkulbacki.com/">
-                                <li class="paddlist">Home</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/about.html">
-                                <li class="paddlist">About</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/projects.html">
-                                <li class="paddlist">CS Projects</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/work.html">
-                                <li class="paddlist">Work Experience</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/courses.html">
-                                <li class="paddlist">Courses</li>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <div class="col-xs-4 col-md-4 block footerLinks">
-                        <ul class="list-unstyled nav-list">
-                            <li class="paddlist">Portfolio</li>
-                            <a href="http://michaelkulbacki.com/landscapes.html">
-                                <li class="paddlist">Landscapes</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/portraits.html">
-                                <li class="paddlist">Portraits</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/docs/MichaelKulbacki.pdf">
-                                <li class="paddlist">Resume</li>
-                            </a>
-                            <a href="http://michaelkulbacki.com/contact.html">
-                                <li class="paddlist">Contact</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--/row-->
-            <br>
-            <br>
-        </div>
-    </footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-xs-12" style="background-color:#1b1b1b;padding-top:10px;">
-                <p class="text-center" style="color:#a7a7a7;">Last Updated: April 2017 | Version 3.2.3</p>
-                <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2017</p>
-            </div>
-        </div>
+  <section class="container-fluid" id="socialsection">
+    <div class="row" id="social">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+        <a href="https://www.facebook.com/mike.d.kulbacki" target="_new" class="circlebutt"><img src="img/icon_f.png" /></a>
+        <a href="https://www.flickr.com/photos/michaelkulbacki/" target="_new" class="circlebutt"><img src="img/icon_flick.png" /></a>
+        <a href="https://github.com/michaelkulbacki" target="_new" class="circlebutt"><img src="img/icon_git.png" /></a>
+        <a href="https://www.instagram.com/michaelbacki/" target="_new" class="circlebutt"><img src="img/icon_ins.png" /></a>
+        <a href="https://twitter.com/michaelbacki" target="_new" class="circlebutt"><img src="img/icon_tw.png" /></a>
+      </div>
     </div>
+  </section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  <!-- Footer -->
+  <a class="anchor" id="contact"></a>
+  <footer id="footer" class="container-fluid">
+    <div class="row">
+      <div class="col-md-offset-2">
+        <div class="col-xs-12 col-md-4 column text-center contentBR" style="color: white">
+          <img src="img/footMK.png" style=" max-width:100px;" />
+          <h4 style="font-family:Roboto"><strong>Michael Kulbacki</strong></h4>
+          <h5>Conatct me at:</h5>
+          <i class="fa fa-envelope fa-fw" style="color: white;"></i>
+          <span style="padding-left:5px;" class="mailLink"><a href="mailto:michaelkulbacki@gmail.com">michaelkulbacki@gmail.com</a></span>
+          <hr class="mobileHR footer" style="border-top:solid 1px white;">
+        </div>
+        <div class="col-xs-offset-1">
+          <div class="col-xs-6 col-md-3 footerLinks" id="desktopfoot">
+            <ul class="list-unstyled nav-list">
+              <a href="http://michaelkulbacki.com/">
+                <li class="paddlist">Home</li>
+              </a>
+              <a href="http://michaelkulbacki.com/about.html">
+                <li class="paddlist">About</li>
+              </a>
+              <a href="http://michaelkulbacki.com/projects.html">
+                <li class="paddlist">CS Projects</li>
+              </a>
+              <a href="http://michaelkulbacki.com/work.html">
+                <li class="paddlist">Work Experience</li>
+              </a>
+              <a href="http://michaelkulbacki.com/courses.html">
+                <li class="paddlist">Courses</li>
+              </a>
+            </ul>
+          </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+          <div class="col-xs-4 col-md-4 block footerLinks">
+            <ul class="list-unstyled nav-list">
+              <li class="paddlist">Portfolio</li>
+              <a href="http://michaelkulbacki.com/landscapes.html">
+                <li class="paddlist">Landscapes</li>
+              </a>
+              <a href="http://michaelkulbacki.com/portraits.html">
+                <li class="paddlist">Portraits</li>
+              </a>
+              <a href="http://michaelkulbacki.com/docs/MichaelKulbacki.pdf">
+                <li class="paddlist">Resume</li>
+              </a>
+              <a href="http://michaelkulbacki.com/contact.html">
+                <li class="paddlist">Contact</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/row-->
+      <br>
+      <br>
+    </div>
+  </footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12" style="background-color:#1b1b1b;padding-top:10px;">
+        <p class="text-center" style="color:#a7a7a7;">Last Updated: April 2018 | Version 3.3.0</p>
+        <p class="text-muted text-center">Website/ Images &copy; MichaelKulbacki.com 2018</p>
+      </div>
+    </div>
+  </div>
 
-    <!-- Custom Theme JavaScript -->
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
-    <!-- main jQuery -->
-    <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
-    <!-- jquery.nav -->
-    <script src="js/effect/jquery.nav.js"></script>
-    <!-- Portfolio Filtering -->
-    <script src="js/effect/jquery.mixitup.min.js"></script>
-    <!-- Fancybox -->
-    <script src="js/effect/jquery.fancybox.pack.js"></script>
-    <!-- Parallax sections -->
-    <script src="js/effect/jquery.parallax-1.1.3.js"></script>
-    <!-- jQuery Appear -->
-    <script src="js/effect/jquery.appear.js"></script>
-    <!-- countTo -->
-    <script src="js/effect/jquery-countTo.js"></script>
-    <!-- owl carousel -->
-    <script src="js/effect/owl.carousel.min.js"></script>
-    <!-- WOW script -->
-    <script src="js/effect/wow.min.js"></script>
-    <!-- theme custom scripts -->
-    <script src="js/effect/main.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="Backup-JS-CSS/materialize.min.js"></script>
-    <script type='text/javascript' src='Backup-JS-CSS/unitegallery.min.js'></script>
-    <script type='text/javascript' src='Backup-JS-CSS/ug-theme-tiles.js'></script>
-    <script type="text/javascript">
-        $(function() {
-            //$('select').material_select();
-            //$(".dropdown-button").dropdown();
-            var mq = window.matchMedia("(min-width: 994px)");
-            if(mq.matches) {
-                api = $("#gallery").unitegallery( {
-                gallery_images_preload_type: "minimal",
-                gallery_autoplay: true,
-                slider_scale_mode: "fit",
-                slider_control_zoom: false,
-                gallery_play_interval: 10000,
-                gallery_theme: "tiles"
-            } );
-            } else {
-                api = $("#gallery").unitegallery( {
-                gallery_images_preload_type: "minimal",
-                gallery_autoplay: true,
-                tiles_type:"justified",
-                slider_scale_mode: "fit",
-                slider_control_zoom: false,
-                gallery_play_interval: 100000,
-                gallery_theme: "tiles"
-            } );
-                    }
-            
-            api.resize($('.container').width(), $('.container').height());
+  <!-- Custom Theme JavaScript -->
 
-            $("#skin").change(function() {
-                var skin = $(this).val();
-            });
+  <!-- main jQuery -->
+  <script src="js/effect/vendor/jquery-1.11.1.min.js"></script>
+  <!-- jquery.nav -->
+  <script src="js/effect/jquery.nav.js"></script>
+  <!-- Portfolio Filtering -->
+  <script src="js/effect/jquery.mixitup.min.js"></script>
+  <!-- Fancybox -->
+  <script src="js/effect/jquery.fancybox.pack.js"></script>
+  <!-- Parallax sections -->
+  <script src="js/effect/jquery.parallax-1.1.3.js"></script>
+  <!-- jQuery Appear -->
+  <script src="js/effect/jquery.appear.js"></script>
+  <!-- countTo -->
+  <script src="js/effect/jquery-countTo.js"></script>
+  <!-- owl carousel -->
+  <script src="js/effect/owl.carousel.min.js"></script>
+  <!-- WOW script -->
+  <script src="js/effect/wow.min.js"></script>
+  <!-- theme custom scripts -->
+  <script src="js/effect/main.js"></script>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="Backup-JS-CSS/materialize.min.js"></script>
+  <script type='text/javascript' src='Backup-JS-CSS/unitegallery.min.js'></script>
+  <script type='text/javascript' src='Backup-JS-CSS/ug-theme-tiles.js'></script>
+  <script type="text/javascript">
+    $(function() {
+      //$('select').material_select();
+      //$(".dropdown-button").dropdown();
+      var mq = window.matchMedia("(min-width: 994px)");
+      if (mq.matches) {
+        api = $("#gallery").unitegallery({
+          gallery_images_preload_type: "minimal",
+          gallery_autoplay: true,
+          slider_scale_mode: "fit",
+          slider_control_zoom: false,
+          gallery_play_interval: 10000,
+          gallery_theme: "tiles"
         });
-    </script>
-
-    
-
-    <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if(target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
+      } else {
+        api = $("#gallery").unitegallery({
+          gallery_images_preload_type: "minimal",
+          gallery_autoplay: true,
+          tiles_type: "justified",
+          slider_scale_mode: "fit",
+          slider_control_zoom: false,
+          gallery_play_interval: 100000,
+          gallery_theme: "tiles"
         });
-    </script>
+      }
+
+      api.resize($('.container').width(), $('.container').height());
+
+      $("#skin").change(function() {
+        var skin = $(this).val();
+      });
+    });
+  </script>
+
+
+
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
 
 </body>
 
