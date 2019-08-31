@@ -143,7 +143,7 @@ body {
   border-top: 1px solid white;
 }
 
-.courses hr {
+.education hr {
   border-top: 1px solid white;
 }
 
@@ -176,8 +176,12 @@ hr.smallW {
 hr.medium {
   max-width: 250px;
 }
+hr.projectsW {
+  max-width: 290px;
+  border-top: 1px solid white;
+}
 
-hr.courses {
+hr.education {
   max-width: 170px;
 }
 
@@ -186,7 +190,7 @@ hr.footer {
 }
 
 hr.projects {
-  max-width: 330px;
+  max-width: 410px;
 }
 
 hr.green {
@@ -203,6 +207,18 @@ hr.mimir {
 
 hr.lockheed {
   border-top: 1px solid #203876;
+}
+
+hr.cornell {
+  border-top: 1px solid #b31a1a;
+}
+
+hr.stevens {
+  border-top: 1px solid #9d1535;
+}
+
+hr.ub {
+  border-top: 1px solid #0a5cbc;
 }
 
 .h2margin h2 {
