@@ -1,8 +1,8 @@
-http://michaelkulbacki.com/
-http://michaelkulbacki.com/about.html
-http://michaelkulbacki.com/projects.html
-http://michaelkulbacki.com/education.html
-http://michaelkulbacki.com/work.html
-http://michaelkulbacki.com/landscapes.html
-http://michaelkulbacki.com/portraits.html
-http://michaelkulbacki.com/contact.html
+https://michaelkulbacki.com/
+https://michaelkulbacki.com/about.html
+https://michaelkulbacki.com/projects.html
+https://michaelkulbacki.com/education.html
+https://michaelkulbacki.com/work.html
+https://michaelkulbacki.com/landscapes.html
+https://michaelkulbacki.com/portraits.html
+https://michaelkulbacki.com/contact.html
