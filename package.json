@@ -1,0 +1,23 @@
+{
+  "name": "michaelkulbacki.github.io",
+  "version": "1.0.0",
+  "description": "This websites purpose is to display my computer science projects along with my photography to potential employers as well as customers for my images. You can find information such as...",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkulbacki/michaelkulbacki.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelkulbacki/michaelkulbacki.github.io/issues"
+  },
+  "homepage": "https://github.com/michaelkulbacki/michaelkulbacki.github.io#readme"
+}
