@@ -10,7 +10,7 @@ class Landscape extends React.Component {
 
   componentDidMount(){
     //alert(process.env.REACT_APP_API_KEY);
-    fetch('https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=f960df8c5bb9ad360d3d37f4bbf36c6f&photoset_id=72157677571789503&user_id=110278078%40N06&extras=url_z%2C+url_k&format=json&nojsoncallback=1')
+    fetch('https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=') // TODO
     .then(function(response){
       return response.json();
     })
